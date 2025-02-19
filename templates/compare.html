@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block title %}Model Comparison{% endblock %}
+
+{% block nav %}
+<a href="/">← Back to Generator</a>
+<h1>Model Comparison</h1>
+<div></div>
+{% endblock %}
+
+{% block content %}
+<div class="feature-comparison animate__animated animate__fadeIn">
+    <h2>Model Feature Comparison</h2>
+    <div class="comparison-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>Grok Vision</th>
+                    <th>GPT-4 Vision</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Response Time</td>
+                    <td>Faster (2-4s)</td>
+                    <td>Slower (4-8s)</td>
+                </tr>
+                <tr>
+                    <td>Style Consistency</td>
+                    <td>More experimental</td>
+                    <td>More consistent</td>
+                </tr>
+                <tr>
+                    <td>Humor Style</td>
+                    <td>Zanier, more absurdist</td>
+                    <td>More traditional</td>
+                </tr>
+                <tr>
+                    <td>Image Analysis</td>
+                    <td>Focus on unusual details</td>
+                    <td>Comprehensive analysis</td>
+                </tr>
+                <tr>
+                    <td>Caption Length</td>
+                    <td>Usually shorter</td>
+                    <td>Usually longer</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="comparison-container" x-data="{ currentIndex: 0 }">
+    {% if pairs %}
+    <div class="comparison-controls animate__animated animate__fadeIn">
+        <button @click="currentIndex = Math.max(0, currentIndex - 1)" 
+                x-bind:disabled="currentIndex === 0"
+                class="nav-button">← Previous</button>
+        <span class="comparison-counter" x-text="`${currentIndex + 1} / {{ pairs|length }}`"></span>
+        <button @click="currentIndex = Math.min({{ pairs|length - 1 }}, currentIndex + 1)" 
+                x-bind:disabled="currentIndex === {{ pairs|length - 1 }}"
+                class="nav-button">Next →</button>
+    </div>
+
+    {% for pair in pairs %}
+    <div class="comparison-pair animate__animated animate__fadeIn" 
+         x-show="currentIndex === {{ loop.index0 }}">
+        <div class="original-image">
+            <img src="{{ pair.grok.image_url }}" alt="Original image">
+        </div>
+        
+        <div class="model-outputs">
+            <div class="model-output grok">
+                <div class="model-header">Grok Vision</div>
+                <img src="{{ url_for('serve_saved_image', filename=pair.grok.captioned_filename) }}" 
+                     alt="Grok caption">
+                <div class="caption-text">{{ pair.grok.caption }}</div>
+                <div class="stats">
+                    <span>👍 {{ pair.grok.upvotes }}</span>
+                    <span>👎 {{ pair.grok.downvotes }}</span>
+                    <span>⏱️ {{ pair.grok.completion_data.response_ms }}ms</span>
+                </div>
+            </div>
+            
+            <div class="model-output gpt">
+                <div class="model-header">GPT-4 Vision</div>
+                <img src="{{ url_for('serve_saved_image', filename=pair.gpt.captioned_filename) }}" 
+                     alt="GPT-4 caption">
+                <div class="caption-text">{{ pair.gpt.caption }}</div>
+                <div class="stats">
+                    <span>👍 {{ pair.gpt.upvotes }}</span>
+                    <span>👎 {{ pair.gpt.downvotes }}</span>
+                    <span>⏱️ {{ pair.gpt.completion_data.response_ms }}ms</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    {% else %}
+    <div class="empty-message">
+        <h2>No comparisons available</h2>
+        <p>Try generating captions with both models for the same image!</p>
+    </div>
+    {% endif %}
+</div>
+{% endblock %} 
