@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Far Side-Style Image Caption Generator</title>
+    <style>
+        :root {
+            --primary-color: #2196F3;
+            --secondary-color: #1976D2;
+            --background-color: #f5f5f5;
+            --card-color: white;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--background-color);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.2em;
+        }
+        
+        .card {
+            background: var(--card-color);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .url-input {
+            width: 80%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 1.1em;
+            transition: border-color 0.3s;
+        }
+        
+        .url-input:focus {
+            border-color: var(--primary-color);
+            outline: none;
+        }
+        
+        .button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 6px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .button:hover {
+            background-color: var(--secondary-color);
+        }
+        
+        .nav-links {
+            margin-top: 15px;
+        }
+        
+        .nav-links a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .result {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .generated-meme {
+            width: 100%;
+            max-width: 800px;
+            background: var(--card-color);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .generated-meme img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        
+        .generated-meme h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+        
+        .analysis-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            width: 100%;
+        }
+        
+        .image-container {
+            background: var(--card-color);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .image-container h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+        
+        .description {
+            background: var(--card-color);
+            padding: 20px;
+            border-radius: 8px;
+            grid-column: 1 / -1;
+        }
+        
+        .error {
+            background-color: #ffebee;
+            color: #c62828;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 20px;
+        }
+        
+        .model-selection {
+            margin: 15px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .model-selection label {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            cursor: pointer;
+        }
+        
+        .model-selection input[type="radio"] {
+            cursor: pointer;
+        }
+        
+        .gallery-section {
+            margin: 40px 0;
+        }
+        
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .image-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+        
+        .image-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .image-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        
+        .image-info {
+            padding: 10px;
+            background: white;
+        }
+        
+        .image-title {
+            margin: 0;
+            font-size: 0.9em;
+            color: #333;
+        }
+        
+        .subreddit {
+            font-size: 0.8em;
+            color: #666;
+        }
+        
+        .meme-gallery {
+            margin: 40px 0;
+            padding: 20px;
+            background: var(--background-color);
+        }
+        
+        .meme-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .meme-card {
+            background: var(--card-color);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        
+        .meme-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .meme-link {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .meme-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        
+        .meme-info {
+            padding: 15px;
+        }
+        
+        .meme-caption {
+            font-size: 1.1em;
+            margin: 0 0 10px 0;
+            color: #333;
+        }
+        
+        .meme-date {
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Far Side-Style Caption Generator</h1>
+        <p>Transform your images with witty, Far Side-inspired captions</p>
+    </div>
+    
+    <div class="card">
+        <div class="form-container">
+            <form method="POST" style="width: 100%; text-align: center;">
+                <input class="url-input" type="text" name="image_url" 
+                       placeholder="Paste your image URL here" required>
+                <div class="model-selection">
+                    <label>
+                        <input type="radio" name="model_choice" value="xai" checked>
+                        X.AI (Grok Vision)
+                    </label>
+                    <label>
+                        <input type="radio" name="model_choice" value="openai">
+                        OpenAI (GPT-4 Vision)
+                    </label>
+                </div>
+                <button class="button" type="submit">Generate Caption</button>
+            </form>
+            <div class="nav-links">
+                <a href="{{ url_for('history') }}">View Previous Generations →</a>
+            </div>
+        </div>
+    </div>
+
+    {% if error %}
+    <div class="error">{{ error }}</div>
+    {% endif %}
+
+    {% if result %}
+    <div class="result">
+        {% if captioned_image %}
+        <div class="generated-meme">
+            <h2>Your Generated Meme</h2>
+            <img src="{{ url_for('serve_saved_image', filename=captioned_image) }}" 
+                 alt="Captioned image">
+        </div>
+        {% endif %}
+        
+        <div class="analysis-grid">
+            <div class="image-container">
+                <h3>Original Image</h3>
+                <img src="{{ request.form.get('image_url') }}" alt="Original image">
+            </div>
+            <div class="description">
+                <h3>AI Analysis</h3>
+                <pre>{{ result }}</pre>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="gallery-section">
+        <h2>Choose an Image from Reddit</h2>
+        <div class="image-grid">
+            {% for image in reddit_images %}
+            <div class="image-card">
+                <img src="{{ image.url }}" alt="{{ image.title }}" 
+                     onclick="selectImage('{{ image.url }}')"
+                     onerror="this.src='/static/placeholder.png'">
+                <div class="image-info">
+                    <p class="image-title">{{ image.title[:50] }}...</p>
+                    <span class="subreddit">r/{{ image.subreddit }}</span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="meme-gallery">
+        <h2>Recently Created Memes</h2>
+        <div class="meme-grid">
+            {% for meme in recent_memes %}
+            <div class="meme-card">
+                <a href="{{ meme.url }}" class="meme-link">
+                    <img src="{{ url_for('serve_saved_image', filename=meme.image) }}" 
+                         alt="Generated meme">
+                    <div class="meme-info">
+                        <p class="meme-caption">{{ meme.caption }}</p>
+                        <span class="meme-date">{{ meme.timestamp.split('T')[0] }}</span>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+    function selectImage(url) {
+        document.querySelector('.url-input').value = url;
+        document.querySelector('.url-input').scrollIntoView({ behavior: 'smooth' });
+    }
+    </script>
+</body>
+</html> 

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Analysis - Far Side Image Caption Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .nav {
+            margin-bottom: 20px;
+        }
+        .nav a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .analysis {
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+        }
+        .caption {
+            font-size: 1.2em;
+            font-style: italic;
+            margin: 20px 0;
+        }
+        .description {
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            margin: 20px 0;
+        }
+        .metadata {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+        .form-container card {
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+        }
+        .url-input {
+            width: 80%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 1.1em;
+            transition: border-color 0.3s;
+        }
+        .url-input:focus {
+            border-color: #2196F3;
+            outline: none;
+        }
+        .button {
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 6px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #1976D2;
+        }
+        .error {
+            background-color: #ffebee;
+            color: #c62828;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="/history">← Back to History</a>
+    </div>
+    
+    <div class="analysis">
+        <h2>Analysis from {{ analysis.timestamp }}</h2>
+        
+        <div class="caption">
+            {{ analysis.caption }}
+        </div>
+        
+        <div class="description">
+            <h3>Description:</h3>
+            {{ analysis.description }}
+        </div>
+        
+        <h3>Original Image:</h3>
+        <img src="{{ analysis.image_url }}" alt="Original image">
+        
+        <h3>Captioned Version:</h3>
+        <img src="{{ url_for('serve_saved_image', filename=captioned_image) }}" alt="Captioned image">
+        
+        <div class="metadata">
+            <h3>Metadata:</h3>
+            <p>Model: {{ analysis.completion_data.model }}</p>
+            <p>Created: {{ analysis.completion_data.created }}</p>
+            {% if analysis.completion_data.response_ms %}
+            <p>Response time: {{ analysis.completion_data.response_ms }}ms</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="form-container card">
+        <form method="POST">
+            <input class="url-input" type="text" name="image_url" 
+                   placeholder="Enter image URL to generate new caption" required>
+            <button class="button" type="submit">Generate New Caption</button>
+        </form>
+        {% if error %}
+        <div class="error">{{ error }}</div>
+        {% endif %}
+    </div>
+</body>
+</html> 

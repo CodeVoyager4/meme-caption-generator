@@ -1,0 +1,1300 @@
+[
+  {
+    "timestamp": "2025-02-18T19:25:10.347748",
+    "image_url": "https://preview.redd.it/what-would-you-do-if-you-were-in-his-place-v0-mtc6ngrevlje1.jpeg?auto=webp&s=8a9bca83ab8b1c9f7616cf36e868b6824e5bb494",
+    "raw_api_response": "DESCRIPTION: The image depicts a snowy scene at night where a person in a winter coat is facing a large, white, furry creature resembling Bigfoot. The person is holding a stick and standing in front of a car with its headlights on, illuminating the scene. The background features snow-covered trees and a dark, starry sky.\n\nCAPTION: \"I told you, Dave, the shortcut through the forest was a bad idea. Now, let's ask Mr. Bigfoot for directions back to civilization.\"",
+    "description": "The image depicts a snowy scene at night where a person in a winter coat is facing a large, white, furry creature resembling Bigfoot. The person is holding a stick and standing in front of a car with its headlights on, illuminating the scene. The background features snow-covered trees and a dark, starry sky.",
+    "caption": "\"I told you, Dave, the shortcut through the forest was a bad idea. Now, let's ask Mr. Bigfoot for directions back to civilization.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/what-would-you-do-if-you-were-in-his-place-v0-mtc6ngrevlje1.jpeg?auto=webp&s=8a9bca83ab8b1c9f7616cf36e868b6824e5bb494",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739928308,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:27:13.337422",
+    "image_url": "https://preview.redd.it/business-man-and-maori-elder-kingi-taurua-v0-hpm1vxicgxje1.jpeg?auto=webp&s=f5addfb0faf3984e5f39fcb2e492258c9b990929",
+    "raw_api_response": "DESCRIPTION: A man with traditional Māori facial tattoos is sitting at an outdoor café, reading a newspaper. He is dressed in a suit and tie. In the background, there are other people sitting at tables, enjoying their time.\n\nCAPTION: \"After mastering the art of the ta moko, Tane decided to tackle the daily crossword puzzle.\"",
+    "description": "A man with traditional Māori facial tattoos is sitting at an outdoor café, reading a newspaper. He is dressed in a suit and tie. In the background, there are other people sitting at tables, enjoying their time.",
+    "caption": "\"After mastering the art of the ta moko, Tane decided to tackle the daily crossword puzzle.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/business-man-and-maori-elder-kingi-taurua-v0-hpm1vxicgxje1.jpeg?auto=webp&s=f5addfb0faf3984e5f39fcb2e492258c9b990929",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739928431,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:32:08.066740",
+    "image_url": "https://external-preview.redd.it/iwnlcxPntBtXCvbm6SsBS9IlhUnNWKBHssd1fgrYbzY.jpg?width=1080&crop=smart&auto=webp&s=ca91e3289dacb5191948b8c239709ab9b8d022f2",
+    "raw_api_response": "DESCRIPTION: The image shows two plates with sunny-side-up eggs on top of what appears to be flatbread or toast with greens. Next to the plates is a carton of eggs from Vital Farms, labeled \"Pasture Raised\" with an illustration of hens and flowers. Above the items, there is a red banner with the text \"UPVOTE WORTHY\" and large letters spelling \"EGGS.\"\n\nCAPTION: \"In the egg kingdom, breakfast is the most important meal of the day... for everyone else.\"",
+    "description": "The image shows two plates with sunny-side-up eggs on top of what appears to be flatbread or toast with greens. Next to the plates is a carton of eggs from Vital Farms, labeled \"Pasture Raised\" with an illustration of hens and flowers. Above the items, there is a red banner with the text \"UPVOTE WORTHY\" and large letters spelling \"EGGS.\"",
+    "caption": "\"In the egg kingdom, breakfast is the most important meal of the day... for everyone else.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://external-preview.redd.it/iwnlcxPntBtXCvbm6SsBS9IlhUnNWKBHssd1fgrYbzY.jpg?width=1080&crop=smart&auto=webp&s=ca91e3289dacb5191948b8c239709ab9b8d022f2",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739928725,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:34:21.626124",
+    "image_url": "https://preview.redd.it/new-criminal-procedure-hypo-just-dropped-v0-brguuekpr6je1.jpg?width=1080&crop=smart&auto=webp&s=02abd0c42fc7eae73e9241dca4226a2734b4d7b8",
+    "raw_api_response": "DESCRIPTION: The image is a screenshot of a Facebook post by Jmoney Jones. The post details the arrest of a married couple, Tito and Amanda Watts, in Florida for selling \"golden tickets to heaven\" for $99.99 each. Tito Watts claims in his police statement that Jesus gave him the tickets behind a KFC, and he was trying to raise money to go to outer space with an alien named Stevie. Amanda Watts said she just watched while Tito sold the tickets. The police confiscated over $10,000 in cash, drug paraphernalia, and a baby alligator. The post includes mugshots of Tito and Amanda Watts.\n\nCAPTION: \"In a surprising turn of events, the Watts' golden ticket business was outshined by their side hustle in exotic pet trading.\"",
+    "description": "The image is a screenshot of a Facebook post by Jmoney Jones. The post details the arrest of a married couple, Tito and Amanda Watts, in Florida for selling \"golden tickets to heaven\" for $99.99 each. Tito Watts claims in his police statement that Jesus gave him the tickets behind a KFC, and he was trying to raise money to go to outer space with an alien named Stevie. Amanda Watts said she just watched while Tito sold the tickets. The police confiscated over $10,000 in cash, drug paraphernalia, and a baby alligator. The post includes mugshots of Tito and Amanda Watts.",
+    "caption": "\"In a surprising turn of events, the Watts' golden ticket business was outshined by their side hustle in exotic pet trading.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/new-criminal-procedure-hypo-just-dropped-v0-brguuekpr6je1.jpg?width=1080&crop=smart&auto=webp&s=02abd0c42fc7eae73e9241dca4226a2734b4d7b8",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739928858,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:45:05.513691",
+    "image_url": "https://preview.redd.it/the-real-lives-of-candy-hearts-v0-7kk6j961akje1.jpg?width=3300&format=pjpg&auto=webp&s=f48820847b31801c1dfb319e614f0dba3a1fc39f",
+    "raw_api_response": "**DESCRIPTION:** The image features two anthropomorphic candy heart characters sitting at a bar. One heart is purple with the words \"FLIRTING BY TEASING\" printed on it, while the other heart is orange with the phrase \"I AM HURT BY THIS FLIRT.\" They both hold beer mugs, and the bar is lightly decorated with bottles in the background.\n\n**CAPTION:** \"When your love life starts to feel like a game of emotional dodgeball.\"",
+    "description": "**** The image features two anthropomorphic candy heart characters sitting at a bar. One heart is purple with the words \"FLIRTING BY TEASING\" printed on it, while the other heart is orange with the phrase \"I AM HURT BY THIS FLIRT.\" They both hold beer mugs, and the bar is lightly decorated with bottles in the background.\n\n**",
+    "caption": "** \"When your love life starts to feel like a game of emotional dodgeball.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/the-real-lives-of-candy-hearts-v0-7kk6j961akje1.jpg?width=3300&format=pjpg&auto=webp&s=f48820847b31801c1dfb319e614f0dba3a1fc39f",
+              "detail": "high"
+            }
+          }
+        ]
+      }
+    ],
+    "model_choice": "openai",
+    "completion_data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "created": 1739929502,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:45:30.373580",
+    "image_url": "https://preview.redd.it/whats-his-name-v0-aadxxswhgrje1.jpeg?auto=webp&s=0d987e48591a63a3897d60eb5acb104c7a91cb03",
+    "raw_api_response": "**DESCRIPTION:** A young man with blonde hair wearing a backwards cap and large, round glasses. He has a blank expression and a full mouth with pronounced lips. He’s adorned with multiple colorful beaded necklaces and a vibrant oversized jacket over a graphic t-shirt.\n\n**CAPTION:** \"In a world where fashion never takes a day off, Brad embraced Monday like it was Casual Friday.\"",
+    "description": "**** A young man with blonde hair wearing a backwards cap and large, round glasses. He has a blank expression and a full mouth with pronounced lips. He’s adorned with multiple colorful beaded necklaces and a vibrant oversized jacket over a graphic t-shirt.\n\n**",
+    "caption": "** \"In a world where fashion never takes a day off, Brad embraced Monday like it was Casual Friday.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/whats-his-name-v0-aadxxswhgrje1.jpeg?auto=webp&s=0d987e48591a63a3897d60eb5acb104c7a91cb03",
+              "detail": "high"
+            }
+          }
+        ]
+      }
+    ],
+    "model_choice": "openai",
+    "completion_data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "created": 1739929528,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:45:58.828412",
+    "image_url": "https://preview.redd.it/kirk-douglas-signs-autographs-at-the-lido-beach-in-venice-v0-0uhxr397pyje1.png?width=1080&crop=smart&auto=webp&s=0e81252274f79ad0a4f526c26083b840ca612745",
+    "raw_api_response": "I'm unable to provide a description of the image. However, I can help generate a humorous caption based on a general concept.\n\nCAPTION: \"When he said he was an artist, she didn’t realize he meant a sand sculptor!\"",
+    "description": "I'm unable to provide a description of the image. However, I can help generate a humorous caption based on a general concept.",
+    "caption": "\"When he said he was an artist, she didn’t realize he meant a sand sculptor!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/kirk-douglas-signs-autographs-at-the-lido-beach-in-venice-v0-0uhxr397pyje1.png?width=1080&crop=smart&auto=webp&s=0e81252274f79ad0a4f526c26083b840ca612745",
+              "detail": "high"
+            }
+          }
+        ]
+      }
+    ],
+    "model_choice": "openai",
+    "completion_data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "created": 1739929557,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:47:32.983104",
+    "image_url": "https://preview.redd.it/happens-frequently-v0-dgom6tlzrxje1.jpeg?width=1080&crop=smart&auto=webp&s=15b28ddc047ef523340f65b72b25f37f64b71d3e",
+    "raw_api_response": "**DESCRIPTION:** A cartoon scene depicting a group of sea creatures inside a colorful, fleshy tunnel resembling an intestinal tract. A character with a helmet is gesturing towards the opening, while three other fish look on, displaying various expressions of surprise, confusion, and concern.\n\n**CAPTION:** \"Well, folks, the 'potato cannon' was a bit overzealous this time!\"",
+    "description": "**** A cartoon scene depicting a group of sea creatures inside a colorful, fleshy tunnel resembling an intestinal tract. A character with a helmet is gesturing towards the opening, while three other fish look on, displaying various expressions of surprise, confusion, and concern.\n\n**",
+    "caption": "\"** \"Well, folks, the 'potato cannon' was a bit overzealous this time!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/happens-frequently-v0-dgom6tlzrxje1.jpeg?width=1080&crop=smart&auto=webp&s=15b28ddc047ef523340f65b72b25f37f64b71d3e",
+              "detail": "high"
+            }
+          }
+        ]
+      }
+    ],
+    "model_choice": "openai",
+    "completion_data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "created": 1739929651,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:48:50.082834",
+    "image_url": "https://preview.redd.it/happens-frequently-v0-dgom6tlzrxje1.jpeg?width=1080&crop=smart&auto=webp&s=15b28ddc047ef523340f65b72b25f37f64b71d3e",
+    "raw_api_response": "DESCRIPTION: The image is a scene from the animated show \"SpongeBob SquarePants.\" It shows SpongeBob SquarePants, Sandy Cheeks, and other characters inside what appears to be a large, red, fleshy tunnel, which is implied to be a rectum. SpongeBob is wearing a spacesuit, and the characters look surprised or concerned.\n\nCAPTION: \"Well, team, looks like we've got another 'exploration' mission. Let's just hope this one doesn't end with us meeting the 'exit' committee.\"",
+    "description": "The image is a scene from the animated show \"SpongeBob SquarePants.\" It shows SpongeBob SquarePants, Sandy Cheeks, and other characters inside what appears to be a large, red, fleshy tunnel, which is implied to be a rectum. SpongeBob is wearing a spacesuit, and the characters look surprised or concerned.",
+    "caption": "\"Well, team, looks like we've got another 'exploration' mission. Let's just hope this one doesn't end with us meeting the 'exit' committee.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/happens-frequently-v0-dgom6tlzrxje1.jpeg?width=1080&crop=smart&auto=webp&s=15b28ddc047ef523340f65b72b25f37f64b71d3e",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739929727,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:54:47.089103",
+    "image_url": "https://external-preview.redd.it/MuYG3TMAbjdazuGQ3dtusxmkfHEL_RvV7jgyKAEebl8.jpg?width=1080&crop=smart&auto=webp&s=5831c444b45b7fce9074dc75fbcb31374612cc17",
+    "raw_api_response": "DESCRIPTION: The image features a vibrant, surreal environment filled with colorful lights and artistic installations. There's a central structure resembling a technological tree that emits beams of light. The atmosphere is whimsical and slightly otherworldly, with colorful decorations and a mysterious ambiance that hints at a playful exploration of love and technology. The text \"LOVE IS IN THE AIRWAVES\" is prominent, along with branding for Meow Wolf in Houston.\n\nCAPTION: \"When you finally find the Wi-Fi signal you've been searching for, but it's broadcasting 'Love Songs' instead!\"",
+    "description": "The image features a vibrant, surreal environment filled with colorful lights and artistic installations. There's a central structure resembling a technological tree that emits beams of light. The atmosphere is whimsical and slightly otherworldly, with colorful decorations and a mysterious ambiance that hints at a playful exploration of love and technology. The text \"LOVE IS IN THE AIRWAVES\" is prominent, along with branding for Meow Wolf in Houston.",
+    "caption": "\"When you finally find the Wi-Fi signal you've been searching for, but it's broadcasting 'Love Songs' instead!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://external-preview.redd.it/MuYG3TMAbjdazuGQ3dtusxmkfHEL_RvV7jgyKAEebl8.jpg?width=1080&crop=smart&auto=webp&s=5831c444b45b7fce9074dc75fbcb31374612cc17",
+              "detail": "high"
+            }
+          }
+        ]
+      }
+    ],
+    "model_choice": "openai",
+    "completion_data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "created": 1739930085,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:56:00.505447",
+    "image_url": "https://external-preview.redd.it/MuYG3TMAbjdazuGQ3dtusxmkfHEL_RvV7jgyKAEebl8.jpg?width=1080&crop=smart&auto=webp&s=5831c444b45b7fce9074dc75fbcb31374612cc17",
+    "raw_api_response": "**DESCRIPTION:** The image showcases an immersive art installation filled with vibrant colors and illuminated elements. The background features a tree-like structure draped with abstract decorations and glowing lights. A large central piece sends out rays resembling sound waves, and the words \"LOVE IS IN THE AIRWAVES\" are prominently displayed above the scene.\n\n**CAPTION:** \"When Cupid traded arrows for Wi-Fi signals and a good playlist!\"",
+    "description": "**** The image showcases an immersive art installation filled with vibrant colors and illuminated elements. The background features a tree-like structure draped with abstract decorations and glowing lights. A large central piece sends out rays resembling sound waves, and the words \"LOVE IS IN THE AIRWAVES\" are prominently displayed above the scene.\n\n**",
+    "caption": "\"** \"When Cupid traded arrows for Wi-Fi signals and a good playlist!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://external-preview.redd.it/MuYG3TMAbjdazuGQ3dtusxmkfHEL_RvV7jgyKAEebl8.jpg?width=1080&crop=smart&auto=webp&s=5831c444b45b7fce9074dc75fbcb31374612cc17",
+              "detail": "high"
+            }
+          }
+        ]
+      }
+    ],
+    "model_choice": "openai",
+    "completion_data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "created": 1739930158,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:56:33.400781",
+    "image_url": "https://preview.redd.it/polar-bear-in-spring-time-v0-rs6e5vn74zje1.png?width=1080&crop=smart&auto=webp&s=f0eb9ccd7855556d3b732d22f83baff4528480af",
+    "raw_api_response": "DESCRIPTION: The image shows an embroidered artwork within an embroidery hoop. The artwork depicts a white polar bear lying down amidst a field of purple flowers with green stems. In the background, there are real purple flowers and a pair of scissors on a wooden surface.\n\nCAPTION: \"After years of searching for the perfect napping spot, Bob the Polar Bear finally found it... in the middle of a giant embroidery project.\"",
+    "description": "The image shows an embroidered artwork within an embroidery hoop. The artwork depicts a white polar bear lying down amidst a field of purple flowers with green stems. In the background, there are real purple flowers and a pair of scissors on a wooden surface.",
+    "caption": "\"After years of searching for the perfect napping spot, Bob the Polar Bear finally found it... in the middle of a giant embroidery project.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/polar-bear-in-spring-time-v0-rs6e5vn74zje1.png?width=1080&crop=smart&auto=webp&s=f0eb9ccd7855556d3b732d22f83baff4528480af",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739930191,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:56:53.476269",
+    "image_url": "https://preview.redd.it/polar-bear-in-spring-time-v0-rs6e5vn74zje1.png?width=1080&crop=smart&auto=webp&s=f0eb9ccd7855556d3b732d22f83baff4528480af",
+    "raw_api_response": "**DESCRIPTION:** The image features an intricately designed embroidery hoop depicting a white bear nestled among vibrant purple flowers. The bear is curled up in a peaceful pose, surrounded by lush greenery and clusters of lavender blooms, with a pair of scissors and additional lavender in the background.\n\n**CAPTION:** \"And here lies the rare 'Floral Bear'—known for snoozing instead of foraging, much to the delight of local flower enthusiasts!\"",
+    "description": "**** The image features an intricately designed embroidery hoop depicting a white bear nestled among vibrant purple flowers. The bear is curled up in a peaceful pose, surrounded by lush greenery and clusters of lavender blooms, with a pair of scissors and additional lavender in the background.\n\n**",
+    "caption": "\"** \"And here lies the rare 'Floral Bear'—known for snoozing instead of foraging, much to the delight of local flower enthusiasts!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/polar-bear-in-spring-time-v0-rs6e5vn74zje1.png?width=1080&crop=smart&auto=webp&s=f0eb9ccd7855556d3b732d22f83baff4528480af",
+              "detail": "high"
+            }
+          }
+        ]
+      }
+    ],
+    "model_choice": "openai",
+    "completion_data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "created": 1739930211,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:02:46.309842",
+    "image_url": "https://preview.redd.it/after-30-years-of-gaming-i-came-to-conclusion-v0-9jvievox8xje1.png?auto=webp&s=115f21e984394695ac751071f7833454a241eb49",
+    "raw_api_response": "DESCRIPTION: The image is a humorous depiction of a bell curve graph representing IQ scores, with various characters placed along the curve. On the left side (lower IQ scores), there's a character labeled \"Playing on easy is fun\" with a score of 55. On the right side (higher IQ scores), there's another character labeled \"Playing on easy is fun\" with a score of 145. At the peak of the curve (average IQ scores), there's a character labeled \"You should play on hard otherwise you can't get true experience of the game\" with a score of 100. The percentages of the population at each IQ score are also shown.\n\nCAPTION: In the land of gamers, the middle ground is the hardest place to be.",
+    "description": "The image is a humorous depiction of a bell curve graph representing IQ scores, with various characters placed along the curve. On the left side (lower IQ scores), there's a character labeled \"Playing on easy is fun\" with a score of 55. On the right side (higher IQ scores), there's another character labeled \"Playing on easy is fun\" with a score of 145. At the peak of the curve (average IQ scores), there's a character labeled \"You should play on hard otherwise you can't get true experience of the game\" with a score of 100. The percentages of the population at each IQ score are also shown.",
+    "caption": "\"In the land of gamers, the middle ground is the hardest place to be.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/after-30-years-of-gaming-i-came-to-conclusion-v0-9jvievox8xje1.png?auto=webp&s=115f21e984394695ac751071f7833454a241eb49",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739930563,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:05:31.174306",
+    "image_url": "https://preview.redd.it/boycotts-work-v0-kbm5cy0g6xje1.png?width=1080&crop=smart&auto=webp&s=1364a0f87842705d57ded8f0612077daeccbe569",
+    "raw_api_response": "DESCRIPTION: The image shows a news headline about McDonald's revenue disappointing due to a significant drop in U.S. sales since the pandemic. Below the headline, there is a photo of a McDonald's Drive-Thru sign with a car speeding by, surrounded by blooming trees and greenery.\n\nCAPTION: \"Even the drive-thru is trying to escape the disappointing sales figures.\"",
+    "description": "The image shows a news headline about McDonald's revenue disappointing due to a significant drop in U.S. sales since the pandemic. Below the headline, there is a photo of a McDonald's Drive-Thru sign with a car speeding by, surrounded by blooming trees and greenery.",
+    "caption": "\"Even the drive-thru is trying to escape the disappointing sales figures.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/boycotts-work-v0-kbm5cy0g6xje1.png?width=1080&crop=smart&auto=webp&s=1364a0f87842705d57ded8f0612077daeccbe569",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739930729,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:06:12.999042",
+    "image_url": "https://preview.redd.it/boycotts-work-v0-kbm5cy0g6xje1.png?width=1080&crop=smart&auto=webp&s=1364a0f87842705d57ded8f0612077daeccbe569",
+    "raw_api_response": "**DESCRIPTION:** The image features a McDonald's Drive-Thru sign with the iconic golden arches prominently displayed. A white car is moving past the sign, which is surrounded by blooming flowers and greenery. Above the image, there is news text indicating a disappointing revenue report for McDonald's U.S. sales.\n\n**CAPTION:** \"When the drive-thru line is longer than your patience... even the burgers are starting to look shifty!\"",
+    "description": "**** The image features a McDonald's Drive-Thru sign with the iconic golden arches prominently displayed. A white car is moving past the sign, which is surrounded by blooming flowers and greenery. Above the image, there is news text indicating a disappointing revenue report for McDonald's U.S. sales.\n\n**",
+    "caption": "\"** \"When the drive-thru line is longer than your patience... even the burgers are starting to look shifty!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/boycotts-work-v0-kbm5cy0g6xje1.png?width=1080&crop=smart&auto=webp&s=1364a0f87842705d57ded8f0612077daeccbe569",
+              "detail": "high"
+            }
+          }
+        ]
+      }
+    ],
+    "model_choice": "openai",
+    "completion_data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "created": 1739930771,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:07:02.838963",
+    "image_url": "https://preview.redd.it/kcd2-goty-v0-g56ytffsyuje1.jpeg?width=1080&crop=smart&auto=webp&s=54e020163195b6b4bf9e66384d977bbe4a42d7ad",
+    "raw_api_response": "**DESCRIPTION:** The image shows a post from Reddit discussing the success of the video game \"Kingdom Come: Deliverance 2,\" which has sold two million units in two weeks. Beneath the post, a humorous comment details a player's experience of stealing from a sleeping guard, leading to a comical scenario where the guard wakes up confused and realizes he's missing his shoes.\n\n**CAPTION:** \"In medieval times, even the thieves had a personal touch: *'One shoe's gone, but at least I still have my dignity!'*\"",
+    "description": "**** The image shows a post from Reddit discussing the success of the video game \"Kingdom Come: Deliverance 2,\" which has sold two million units in two weeks. Beneath the post, a humorous comment details a player's experience of stealing from a sleeping guard, leading to a comical scenario where the guard wakes up confused and realizes he's missing his shoes.\n\n**",
+    "caption": "\"** \"In medieval times, even the thieves had a personal touch: *'One shoe's gone, but at least I still have my dignity!'*\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/kcd2-goty-v0-g56ytffsyuje1.jpeg?width=1080&crop=smart&auto=webp&s=54e020163195b6b4bf9e66384d977bbe4a42d7ad",
+              "detail": "high"
+            }
+          }
+        ]
+      }
+    ],
+    "model_choice": "openai",
+    "completion_data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "created": 1739930820,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:07:48.192623",
+    "image_url": "https://preview.redd.it/final-update-justified-note-v0-yazd6psxgxje1.jpg?width=1080&crop=smart&auto=webp&s=893ddb99b3711d0700a0a5b3fbb2bfe3bf6fe0ad",
+    "raw_api_response": "DESCRIPTION: The image shows a piece of lined notebook paper with three holes punched on the left side. On the paper, there is handwritten text in blue ink that reads: \"Unless you're disabled & can't take your garbage outside, no one wants to see it in the hallway, be considerate... it's also a safety hazard for fires.\"\n\nCAPTION: \"In a world where trash talk is taken literally, apartment living reaches new heights of passive-aggressiveness.\"",
+    "description": "The image shows a piece of lined notebook paper with three holes punched on the left side. On the paper, there is handwritten text in blue ink that reads: \"Unless you're disabled & can't take your garbage outside, no one wants to see it in the hallway, be considerate... it's also a safety hazard for fires.\"",
+    "caption": "\"In a world where trash talk is taken literally, apartment living reaches new heights of passive-aggressiveness.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/final-update-justified-note-v0-yazd6psxgxje1.jpg?width=1080&crop=smart&auto=webp&s=893ddb99b3711d0700a0a5b3fbb2bfe3bf6fe0ad",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739930866,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:08:43.183169",
+    "image_url": "https://preview.redd.it/final-update-justified-note-v0-yazd6psxgxje1.jpg?width=1080&crop=smart&auto=webp&s=893ddb99b3711d0700a0a5b3fbb2bfe3bf6fe0ad",
+    "raw_api_response": "DESCRIPTION: The image features a handwritten note on lined notebook paper, expressing frustration about trash being left in a hallway. The note emphasizes that unless someone is disabled, they should take their garbage outside and be considerate of others, mentioning that it's also a fire hazard.\n\nCAPTION: \"In a world where trash can’t take a hint, the hallway becomes the next reality TV star: ‘Keep It or Toss It!’\"",
+    "description": "The image features a handwritten note on lined notebook paper, expressing frustration about trash being left in a hallway. The note emphasizes that unless someone is disabled, they should take their garbage outside and be considerate of others, mentioning that it's also a fire hazard.",
+    "caption": "\"In a world where trash can’t take a hint, the hallway becomes the next reality TV star: ‘Keep It or Toss It!’\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/final-update-justified-note-v0-yazd6psxgxje1.jpg?width=1080&crop=smart&auto=webp&s=893ddb99b3711d0700a0a5b3fbb2bfe3bf6fe0ad",
+              "detail": "high"
+            }
+          }
+        ]
+      }
+    ],
+    "model_choice": "openai",
+    "completion_data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "created": 1739930921,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:11:40.692582",
+    "image_url": "https://preview.redd.it/24-i-made-it-v0-pbqx1f668yje1.jpg?width=1080&crop=smart&auto=webp&s=39ff80a8924647fde225140bdfc62259c7272040",
+    "raw_api_response": "DESCRIPTION: A person is sitting on a wooden chair in front of a small wooden table. On the table, there is a chocolate cake with white icing on top and two sparklers instead of candles. The person is smiling and appears to be in the middle of a celebration, possibly a birthday. There is a television mounted on the wall in the background.\n\nCAPTION: \"When you turn 21 but your parents still think sparklers are safer than candles.\"",
+    "description": "A person is sitting on a wooden chair in front of a small wooden table. On the table, there is a chocolate cake with white icing on top and two sparklers instead of candles. The person is smiling and appears to be in the middle of a celebration, possibly a birthday. There is a television mounted on the wall in the background.",
+    "caption": "\"When you turn 21 but your parents still think sparklers are safer than candles.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/24-i-made-it-v0-pbqx1f668yje1.jpg?width=1080&crop=smart&auto=webp&s=39ff80a8924647fde225140bdfc62259c7272040",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739931098,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:15:28.337397",
+    "image_url": "https://preview.redd.it/were-all-adults-who-here-is-keeping-the-filet-o-fish-in-v0-a0zxhaqmayje1.jpeg?width=1080&crop=smart&auto=webp&s=3713e07a3f6b4303ffd4b288b292f0fbec8c7e7b",
+    "raw_api_response": "DESCRIPTION: The image shows a promotional offer from McDonald's for bonus points. The offer is \"+100 points on a Filet-O-Fish®\" with an expiration date of 01/07/2025. The image includes four McDonald's logos and a picture of a Filet-O-Fish sandwich. The navigation bar at the top has three options: \"My Rewards,\" \"Offers,\" and \"Bonus Points,\" with \"Bonus Points\" highlighted.\n\nCAPTION: \"In the year 2025, the last Filet-O-Fish bonus points were claimed, and humanity entered a new era of peace and prosperity.\"",
+    "description": "The image shows a promotional offer from McDonald's for bonus points. The offer is \"+100 points on a Filet-O-Fish®\" with an expiration date of 01/07/2025. The image includes four McDonald's logos and a picture of a Filet-O-Fish sandwich. The navigation bar at the top has three options: \"My Rewards,\" \"Offers,\" and \"Bonus Points,\" with \"Bonus Points\" highlighted.",
+    "caption": "\"In the year 2025, the last Filet-O-Fish bonus points were claimed, and humanity entered a new era of peace and prosperity.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/were-all-adults-who-here-is-keeping-the-filet-o-fish-in-v0-a0zxhaqmayje1.jpeg?width=1080&crop=smart&auto=webp&s=3713e07a3f6b4303ffd4b288b292f0fbec8c7e7b",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739931325,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:16:31.137008",
+    "image_url": "https://preview.redd.it/what-is-going-on-v0-q9t4pxgifkje1.jpeg?auto=webp&s=0e2a09403a2403a3faeaacb8d81841acc4b06e60",
+    "raw_api_response": "DESCRIPTION: The image shows a close-up of Thanos, a character from the Marvel Cinematic Universe, looking worn out and covered in dust and dirt. The text at the top of the image reads, \"Redditors' shoes for some reason:\"\n\nCAPTION: \"After a long day of lurking on Reddit, Thanos finally emerges from the depths of the comment section.\"",
+    "description": "The image shows a close-up of Thanos, a character from the Marvel Cinematic Universe, looking worn out and covered in dust and dirt. The text at the top of the image reads, \"Redditors' shoes for some reason:\"",
+    "caption": "\"After a long day of lurking on Reddit, Thanos finally emerges from the depths of the comment section.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/what-is-going-on-v0-q9t4pxgifkje1.jpeg?auto=webp&s=0e2a09403a2403a3faeaacb8d81841acc4b06e60",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739931389,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:16:56.176986",
+    "image_url": "https://preview.redd.it/no-expectations-in-the-latter-case-v0-1977g5ouayje1.png?auto=webp&s=7db54cd38a22e675adec97368705fb95aefdda72",
+    "raw_api_response": "DESCRIPTION: The image is a two-panel comic from \"The Simpsons.\" In the first panel, Bart Simpson is saying, \"*My anxiety making me think everyone hates me*.\" In the second panel, Homer Simpson is talking to Bart, saying, \"*My depression telling me nobody cares enough about me to hate me*.\"\n\nCAPTION: \"In the world of mental health, even cartoon characters have their struggles.\"",
+    "description": "The image is a two-panel comic from \"The Simpsons.\" In the first panel, Bart Simpson is saying, \"*My anxiety making me think everyone hates me*.\" In the second panel, Homer Simpson is talking to Bart, saying, \"*My depression telling me nobody cares enough about me to hate me*.\"",
+    "caption": "\"In the world of mental health, even cartoon characters have their struggles.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/no-expectations-in-the-latter-case-v0-1977g5ouayje1.png?auto=webp&s=7db54cd38a22e675adec97368705fb95aefdda72",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739931414,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:17:07.926920",
+    "image_url": "https://preview.redd.it/no-expectations-in-the-latter-case-v0-1977g5ouayje1.png?auto=webp&s=7db54cd38a22e675adec97368705fb95aefdda72",
+    "raw_api_response": "DESCRIPTION: The image is a two-panel comic featuring characters from \"The Simpsons.\" In the first panel, Bart Simpson is saying, \"*My anxiety making me think everyone hates me*.\" In the second panel, Homer Simpson is saying, \"*My depression telling me nobody cares enough about me to hate me*.\"\n\nCAPTION: \"In the battle of mental health, Bart and Homer find themselves on the same team... unfortunately.\"",
+    "description": "The image is a two-panel comic featuring characters from \"The Simpsons.\" In the first panel, Bart Simpson is saying, \"*My anxiety making me think everyone hates me*.\" In the second panel, Homer Simpson is saying, \"*My depression telling me nobody cares enough about me to hate me*.\"",
+    "caption": "\"In the battle of mental health, Bart and Homer find themselves on the same team... unfortunately.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/no-expectations-in-the-latter-case-v0-1977g5ouayje1.png?auto=webp&s=7db54cd38a22e675adec97368705fb95aefdda72",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739931426,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:17:35.286720",
+    "image_url": "https://preview.redd.it/open-the-door-fbi-v0-j3qse29z3xje1.jpeg?auto=webp&s=02c19fc3c767b72e24301a35d4b8c82734dd68c3",
+    "raw_api_response": "DESCRIPTION: The image is divided into two parts. The top part contains text that reads: \"😏 'You're gonna meet my parents tomorrow so wear something good'\" followed by \"Me next day:\" The bottom part shows a person from behind wearing a striped shirt and a blue cap with \"FBI\" written on it, which stands for \"Female Body Inspector.\"\n\nCAPTION: \"Introducing the undercover agent at the family dinner.\"",
+    "description": "The image is divided into two parts. The top part contains text that reads: \"😏 'You're gonna meet my parents tomorrow so wear something good'\" followed by \"Me next day:\" The bottom part shows a person from behind wearing a striped shirt and a blue cap with \"FBI\" written on it, which stands for \"Female Body Inspector.\"",
+    "caption": "\"Introducing the undercover agent at the family dinner.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/open-the-door-fbi-v0-j3qse29z3xje1.jpeg?auto=webp&s=02c19fc3c767b72e24301a35d4b8c82734dd68c3",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739931453,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:18:35.928574",
+    "image_url": "https://preview.redd.it/tough-choices-v0-o92frrsubpje1.jpeg?width=1080&crop=smart&auto=webp&s=b4dba3aeea485e0f39d12210ae3beaa4c3e85528",
+    "raw_api_response": "DESCRIPTION: The image shows a person in a dark, stylish room with a gaming setup. The room has a large TV screen displaying a video game, various collectibles on shelves, and motivational posters on the wall. The person is smoking a cigarette and looking contemplative. The text at the top reads, \"ME IN MY ROOM DECIDING IF I SHOULD GREET THE GUESTS OR STARVE TO DEATH.\"\n\nCAPTION: \"In the ultimate battle of introversion vs. survival, the outcome is still uncertain.\"",
+    "description": "The image shows a person in a dark, stylish room with a gaming setup. The room has a large TV screen displaying a video game, various collectibles on shelves, and motivational posters on the wall. The person is smoking a cigarette and looking contemplative. The text at the top reads, \"ME IN MY ROOM DECIDING IF I SHOULD GREET THE GUESTS OR STARVE TO DEATH.\"",
+    "caption": "\"In the ultimate battle of introversion vs. survival, the outcome is still uncertain.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/tough-choices-v0-o92frrsubpje1.jpeg?width=1080&crop=smart&auto=webp&s=b4dba3aeea485e0f39d12210ae3beaa4c3e85528",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739931513,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:19:12.226449",
+    "image_url": "https://preview.redd.it/a-win-is-a-win-guys-v0-yxulxb3twyje1.png?auto=webp&s=51e6a6955696e3ebb7585b21539e6a812bc785bb",
+    "raw_api_response": "DESCRIPTION: The image shows two men shaking hands in an office setting. One man is wearing a suit and tie, while the other is wearing a white shirt and a blue tie. The text on the image reads: \"My GF laughing at my jokes\" pointing to the man in the suit, and \"Me who made the joke thinking I was going to sleep on the couch\" pointing to the man in the white shirt.\n\nCAPTION: \"Congratulations, Dave! You've finally mastered the art of the unintentional compliment!\"",
+    "description": "The image shows two men shaking hands in an office setting. One man is wearing a suit and tie, while the other is wearing a white shirt and a blue tie. The text on the image reads: \"My GF laughing at my jokes\" pointing to the man in the suit, and \"Me who made the joke thinking I was going to sleep on the couch\" pointing to the man in the white shirt.",
+    "caption": "\"Congratulations, Dave! You've finally mastered the art of the unintentional compliment!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/a-win-is-a-win-guys-v0-yxulxb3twyje1.png?auto=webp&s=51e6a6955696e3ebb7585b21539e6a812bc785bb",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739931550,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:20:56.700281",
+    "image_url": "https://preview.redd.it/wonder-why-though-v0-1t0jgwv5pvje1.jpeg?auto=webp&s=8ed47a13b79bb684b57385893a9db325b9412b06",
+    "raw_api_response": "DESCRIPTION: The image is a popular meme format showing a couple lying in bed, facing away from each other. The woman looks concerned and is thinking, \"I bet he's thinking about other women,\" while the man is thinking, \"If Cinderella's shoes fit perfectly, why did one fall off?\"\n\nCAPTION: In a parallel universe, bedtime thoughts take a turn for the fairy tale.",
+    "description": "The image is a popular meme format showing a couple lying in bed, facing away from each other. The woman looks concerned and is thinking, \"I bet he's thinking about other women,\" while the man is thinking, \"If Cinderella's shoes fit perfectly, why did one fall off?\"",
+    "caption": "\"In a parallel universe, bedtime thoughts take a turn for the fairy tale.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/wonder-why-though-v0-1t0jgwv5pvje1.jpeg?auto=webp&s=8ed47a13b79bb684b57385893a9db325b9412b06",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739931655,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:21:08.995943",
+    "image_url": "https://preview.redd.it/wonder-why-though-v0-1t0jgwv5pvje1.jpeg?auto=webp&s=8ed47a13b79bb684b57385893a9db325b9412b06",
+    "raw_api_response": "DESCRIPTION: The image is a popular meme format showing a couple lying in bed, facing away from each other. The woman looks concerned, thinking, \"I bet he's thinking about other women.\" Meanwhile, the man is deep in thought, pondering, \"If Cinderella's shoes fit perfectly, why did one fall off?\"\n\nCAPTION: \"In the grand scheme of things, some mysteries are just too big for bedtime.\"",
+    "description": "The image is a popular meme format showing a couple lying in bed, facing away from each other. The woman looks concerned, thinking, \"I bet he's thinking about other women.\" Meanwhile, the man is deep in thought, pondering, \"If Cinderella's shoes fit perfectly, why did one fall off?\"",
+    "caption": "\"In the grand scheme of things, some mysteries are just too big for bedtime.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/wonder-why-though-v0-1t0jgwv5pvje1.jpeg?auto=webp&s=8ed47a13b79bb684b57385893a9db325b9412b06",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739931667,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:21:43.038324",
+    "image_url": "https://preview.redd.it/im-trying-to-be-careful-v0-e3zqjs1zt0je1.jpeg?auto=webp&s=9ebbec9b858f0b80b7b770b3df2bc1d885f5f713",
+    "raw_api_response": "DESCRIPTION: The image is a meme featuring a humorous situation. At the top, there's text that reads \"Dad: Fill out the form carefully. We only have one.\" Below that, it says \"Me:\" followed by an image of a form with the name \"Peter Parker\" filled out for the first name, and just a question mark \"?\" for the last name. The background image shows a scene from the Spider-Man movie where Peter Parker is looking thoughtful.\n\nCAPTION: \"Peter Parker fills out his superhero registration form.\"",
+    "description": "The image is a meme featuring a humorous situation. At the top, there's text that reads \"Dad: Fill out the form carefully. We only have one.\" Below that, it says \"Me:\" followed by an image of a form with the name \"Peter Parker\" filled out for the first name, and just a question mark \"?\" for the last name. The background image shows a scene from the Spider-Man movie where Peter Parker is looking thoughtful.",
+    "caption": "\"Peter Parker fills out his superhero registration form.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/im-trying-to-be-careful-v0-e3zqjs1zt0je1.jpeg?auto=webp&s=9ebbec9b858f0b80b7b770b3df2bc1d885f5f713",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739931700,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:23:34.785318",
+    "image_url": "https://preview.redd.it/how-did-you-get-that-big-v0-8ikrpwza6uje1.png?auto=webp&s=8ec2e66aecf45bf8e73a8d7fcf4d5047d818b5dc",
+    "raw_api_response": "DESCRIPTION: The image is a side-by-side comparison of two scenes. On the left, labeled \"2015,\" there is a small white dog labeled \"ME\" and a small black and brown dog labeled \"MY PROBLEMS.\" On the right, labeled \"2025,\" the same white dog labeled \"ME\" is now sitting next to a much larger black and brown dog labeled \"MY PROBLEMS.\"\n\nCAPTION: \"In 2015, my problems were puppy-sized. By 2025, they grew into a full-grown headache.\"",
+    "description": "The image is a side-by-side comparison of two scenes. On the left, labeled \"2015,\" there is a small white dog labeled \"ME\" and a small black and brown dog labeled \"MY PROBLEMS.\" On the right, labeled \"2025,\" the same white dog labeled \"ME\" is now sitting next to a much larger black and brown dog labeled \"MY PROBLEMS.\"",
+    "caption": "\"In 2015, my problems were puppy-sized. By 2025, they grew into a full-grown headache.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/how-did-you-get-that-big-v0-8ikrpwza6uje1.png?auto=webp&s=8ec2e66aecf45bf8e73a8d7fcf4d5047d818b5dc",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739931812,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:27:39.414766",
+    "image_url": "https://preview.redd.it/how-did-you-get-that-big-v0-8ikrpwza6uje1.png?auto=webp&s=8ec2e66aecf45bf8e73a8d7fcf4d5047d818b5dc",
+    "raw_api_response": "DESCRIPTION: The image is a comparison between two years, 2015 and 2025. On the left side, labeled \"2015,\" there is a small white dog labeled \"ME\" standing next to a larger black and brown dog labeled \"MY PROBLEMS.\" On the right side, labeled \"2025,\" the same small white dog labeled \"ME\" is now standing next to an even larger black and brown dog labeled \"MY PROBLEMS.\"\n\nCAPTION: \"Over the years, my problems grew a lot, but I'm still the same fluffball.\"",
+    "description": "The image is a comparison between two years, 2015 and 2025. On the left side, labeled \"2015,\" there is a small white dog labeled \"ME\" standing next to a larger black and brown dog labeled \"MY PROBLEMS.\" On the right side, labeled \"2025,\" the same small white dog labeled \"ME\" is now standing next to an even larger black and brown dog labeled \"MY PROBLEMS.\"",
+    "caption": "\"Over the years, my problems grew a lot, but I'm still the same fluffball.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/how-did-you-get-that-big-v0-8ikrpwza6uje1.png?auto=webp&s=8ec2e66aecf45bf8e73a8d7fcf4d5047d818b5dc",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739932056,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:32:02.948080",
+    "image_url": "https://preview.redd.it/time-to-throw-them-skinny-jeans-away-v0-vb3s890uozje1.jpeg?width=1080&crop=smart&auto=webp&s=644b1050a48d17aa3308ff4ec2b52d2bfd9cb2fc",
+    "raw_api_response": "DESCRIPTION: The image shows a French Bulldog standing on its hind legs, leaning against a piece of furniture. The dog's body appears to be squeezed into a position that makes it look uncomfortable and awkward, with its belly protruding. The caption at the top of the image reads \"Men over 40 in skinny jeans.\"\n\nCAPTION: \"When you realize the dog fashion show theme is 'Retro Human Trends'.\"",
+    "description": "The image shows a French Bulldog standing on its hind legs, leaning against a piece of furniture. The dog's body appears to be squeezed into a position that makes it look uncomfortable and awkward, with its belly protruding. The caption at the top of the image reads \"Men over 40 in skinny jeans.\"",
+    "caption": "\"When you realize the dog fashion show theme is 'Retro Human Trends'.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/time-to-throw-them-skinny-jeans-away-v0-vb3s890uozje1.jpeg?width=1080&crop=smart&auto=webp&s=644b1050a48d17aa3308ff4ec2b52d2bfd9cb2fc",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739932321,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:32:46.708664",
+    "image_url": "https://preview.redd.it/time-to-throw-them-skinny-jeans-away-v0-vb3s890uozje1.jpeg?width=1080&crop=smart&auto=webp&s=644b1050a48d17aa3308ff4ec2b52d2bfd9cb2fc",
+    "raw_api_response": "DESCRIPTION: The image shows a French Bulldog standing on its hind legs, leaning against a piece of furniture. The dog's body is slightly hunched, and its front legs are resting on the furniture. The caption above the image reads \"Men over 40 in skinny jeans.\"\n\nCAPTION: \"I told you, I'm just trying to get a better look at the buffet!\"",
+    "description": "The image shows a French Bulldog standing on its hind legs, leaning against a piece of furniture. The dog's body is slightly hunched, and its front legs are resting on the furniture. The caption above the image reads \"Men over 40 in skinny jeans.\"",
+    "caption": "\"I told you, I'm just trying to get a better look at the buffet!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/time-to-throw-them-skinny-jeans-away-v0-vb3s890uozje1.jpeg?width=1080&crop=smart&auto=webp&s=644b1050a48d17aa3308ff4ec2b52d2bfd9cb2fc",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739932365,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:33:55.423524",
+    "image_url": "https://preview.redd.it/nearly-as-good-as-sneaking-a-gorilla-suit-into-the-space-v0-oc9fotkjlyje1.jpeg?auto=webp&s=627f38add185bb01d34dcb389c0d0d0f3a931506",
+    "raw_api_response": "DESCRIPTION: The image shows three individuals dressed in ape costumes, reminiscent of characters from the \"Planet of the Apes\" series. They are standing side by side, wearing what appears to be space or military-style uniforms over their costumes. The text at the bottom of the image reads, \"If I ran NASA, it would be mandatory for the ground crew to be dressed as apes when the space shuttle lands.\"\n\nCAPTION: \"Welcome back, astronauts! Today's theme: Primate Parking Protocol.\"",
+    "description": "The image shows three individuals dressed in ape costumes, reminiscent of characters from the \"Planet of the Apes\" series. They are standing side by side, wearing what appears to be space or military-style uniforms over their costumes. The text at the bottom of the image reads, \"If I ran NASA, it would be mandatory for the ground crew to be dressed as apes when the space shuttle lands.\"",
+    "caption": "\"Welcome back, astronauts! Today's theme: Primate Parking Protocol.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/nearly-as-good-as-sneaking-a-gorilla-suit-into-the-space-v0-oc9fotkjlyje1.jpeg?auto=webp&s=627f38add185bb01d34dcb389c0d0d0f3a931506",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739932433,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:35:59.014852",
+    "image_url": "https://the-public-domain-review.imgix.net/collections/compendium-of-demonology-and-magic-ca-1775/19238839766_083e892e13_o.jpg?fit=clip&w=720&h=1200&auto=format,compress",
+    "raw_api_response": "DESCRIPTION: The image depicts a fantastical creature with a bird-like head, wings, and clawed feet, standing on a narrow bridge over water. The creature is wearing a red hat, holding drumsticks, and has a drum slung over its shoulder. Its body is covered in fur, and it has a long tail. There are two faces on its chest, one of a skull and the other of a human. The background includes a small tower and a landscape with hills.\n\nCAPTION: \"Introducing the new mascot for the Transylvanian Marching Band: Asmodeus, the Drumming Demon!\"",
+    "description": "The image depicts a fantastical creature with a bird-like head, wings, and clawed feet, standing on a narrow bridge over water. The creature is wearing a red hat, holding drumsticks, and has a drum slung over its shoulder. Its body is covered in fur, and it has a long tail. There are two faces on its chest, one of a skull and the other of a human. The background includes a small tower and a landscape with hills.",
+    "caption": "\"Introducing the new mascot for the Transylvanian Marching Band: Asmodeus, the Drumming Demon!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://the-public-domain-review.imgix.net/collections/compendium-of-demonology-and-magic-ca-1775/19238839766_083e892e13_o.jpg?fit=clip&w=720&h=1200&auto=format,compress",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739932556,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:36:13.502626",
+    "image_url": "https://the-public-domain-review.imgix.net/collections/compendium-of-demonology-and-magic-ca-1775/19238839766_083e892e13_o.jpg?fit=clip&w=720&h=1200&auto=format,compress",
+    "raw_api_response": "DESCRIPTION: The image depicts a fantastical creature with a mix of human and animal features. It has a bird-like head with a red hat, bat-like wings with peacock feather patterns, and clawed feet. The creature is holding a drum and drumsticks, and has a lion's mane around its waist. It is standing on a narrow bridge over a stream, with a small tower and some greenery in the background. There is some text in German at the top of the image.\n\nCAPTION: \"Asmodeus was the life of the party until he realized he forgot his sheet music at home.\"",
+    "description": "The image depicts a fantastical creature with a mix of human and animal features. It has a bird-like head with a red hat, bat-like wings with peacock feather patterns, and clawed feet. The creature is holding a drum and drumsticks, and has a lion's mane around its waist. It is standing on a narrow bridge over a stream, with a small tower and some greenery in the background. There is some text in German at the top of the image.",
+    "caption": "\"Asmodeus was the life of the party until he realized he forgot his sheet music at home.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://the-public-domain-review.imgix.net/collections/compendium-of-demonology-and-magic-ca-1775/19238839766_083e892e13_o.jpg?fit=clip&w=720&h=1200&auto=format,compress",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739932570,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:36:31.413006",
+    "image_url": "https://the-public-domain-review.imgix.net/collections/compendium-of-demonology-and-magic-ca-1775/19238839766_083e892e13_o.jpg?fit=clip&w=720&h=1200&auto=format,compress",
+    "raw_api_response": "DESCRIPTION: This image depicts a fantastical creature with a bird-like head, bat-like wings, and clawed feet, standing on a narrow bridge over a stream. The creature is wearing a red hat, has a drum slung over its shoulder, and is holding drumsticks. It has a lion-like mane, and its torso features a skull and a face. The background includes a small tower and some greenery.\n\nCAPTION: \"Asmodeus finally found a gig, but the commute was a real pain in the wings.\"",
+    "description": "This image depicts a fantastical creature with a bird-like head, bat-like wings, and clawed feet, standing on a narrow bridge over a stream. The creature is wearing a red hat, has a drum slung over its shoulder, and is holding drumsticks. It has a lion-like mane, and its torso features a skull and a face. The background includes a small tower and some greenery.",
+    "caption": "\"Asmodeus finally found a gig, but the commute was a real pain in the wings.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://the-public-domain-review.imgix.net/collections/compendium-of-demonology-and-magic-ca-1775/19238839766_083e892e13_o.jpg?fit=clip&w=720&h=1200&auto=format,compress",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739932589,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:44:50.801029",
+    "image_url": "https://preview.redd.it/dentists-are-odd-creatures-v0-uobupd3o7pie1.jpeg?auto=webp&s=a70b64d981bf3cd5eb49f8e79bc61bfd928bb602",
+    "raw_api_response": "DESCRIPTION: The image is a four-panel comic featuring characters from the movie \"How to Train Your Dragon.\" The top two panels show a dragon with a caption that reads \"EATING A SINGLE BIG MEAL PER DAY.\" The bottom two panels show two different reactions: one from a character resembling a nutritionist (Toothless) and another from a character resembling a dentist (Hiccup). The nutritionist looks pleased, while the dentist looks horrified.\n\nCAPTION: Nutritionists and dentists: the eternal struggle of dietary advice.",
+    "description": "The image is a four-panel comic featuring characters from the movie \"How to Train Your Dragon.\" The top two panels show a dragon with a caption that reads \"EATING A SINGLE BIG MEAL PER DAY.\" The bottom two panels show two different reactions: one from a character resembling a nutritionist (Toothless) and another from a character resembling a dentist (Hiccup). The nutritionist looks pleased, while the dentist looks horrified.",
+    "caption": "\"Nutritionists and dentists: the eternal struggle of dietary advice.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/dentists-are-odd-creatures-v0-uobupd3o7pie1.jpeg?auto=webp&s=a70b64d981bf3cd5eb49f8e79bc61bfd928bb602",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739933088,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:45:10.890845",
+    "image_url": "https://preview.redd.it/dentists-are-odd-creatures-v0-uobupd3o7pie1.jpeg?auto=webp&s=a70b64d981bf3cd5eb49f8e79bc61bfd928bb602",
+    "raw_api_response": "DESCRIPTION: This image is a meme featuring two scenes from the movie \"How to Train Your Dragon.\" The top half shows Toothless, the dragon, with the text \"EATING A SINGLE BIG MEAL PER DAY.\" The bottom half is split into two sections: on the left, Toothless looks content, labeled \"NUTRITIONISTS,\" and on the right, Hiccup looks horrified, labeled \"DENTISTS.\"\n\nCAPTION: Nutritionists: \"It's the latest diet trend!\" Dentists: \"But have you seen the size of those teeth?\"",
+    "description": "This image is a meme featuring two scenes from the movie \"How to Train Your Dragon.\" The top half shows Toothless, the dragon, with the text \"EATING A SINGLE BIG MEAL PER DAY.\" The bottom half is split into two sections: on the left, Toothless looks content, labeled \"NUTRITIONISTS,\" and on the right, Hiccup looks horrified, labeled \"DENTISTS.\"",
+    "caption": "\"Nutritionists: \"It's the latest diet trend!\" Dentists: \"But have you seen the size of those teeth?\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/dentists-are-odd-creatures-v0-uobupd3o7pie1.jpeg?auto=webp&s=a70b64d981bf3cd5eb49f8e79bc61bfd928bb602",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739933108,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:45:21.420854",
+    "image_url": "https://preview.redd.it/teeth-be-like-v0-jc47tit7p0je1.jpeg?auto=webp&s=2e7f337caf39edde20512f838d0a40ed4d320770",
+    "raw_api_response": "DESCRIPTION: The image is divided into two parts. The top part shows a highway sign with two directions: one arrow pointing left labeled \"resistant to sugar\" and the other arrow pointing right labeled \"fireproof.\" The bottom part shows a car taking a sharp right turn off the road, with the word \"teeth\" labeled over the car.\n\nCAPTION: \"After years of debate, teeth finally decide on their superpower.\"",
+    "description": "The image is divided into two parts. The top part shows a highway sign with two directions: one arrow pointing left labeled \"resistant to sugar\" and the other arrow pointing right labeled \"fireproof.\" The bottom part shows a car taking a sharp right turn off the road, with the word \"teeth\" labeled over the car.",
+    "caption": "\"After years of debate, teeth finally decide on their superpower.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/teeth-be-like-v0-jc47tit7p0je1.jpeg?auto=webp&s=2e7f337caf39edde20512f838d0a40ed4d320770",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739933119,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T20:46:46.702800",
+    "image_url": "https://preview.redd.it/teeth-be-like-v0-jc47tit7p0je1.jpeg?auto=webp&s=2e7f337caf39edde20512f838d0a40ed4d320770",
+    "raw_api_response": "DESCRIPTION: The image is a humorous comparison between two photos. The top photo shows a highway sign with two directions: one arrow pointing left labeled \"resistant to sugar\" and the other arrow pointing right labeled \"fireproof.\" The bottom photo shows a car taking a sharp turn on a road with the word \"teeth\" overlaid on it, implying that teeth are neither resistant to sugar nor fireproof.\n\nCAPTION: \"Teeth: The ultimate rebels, ignoring both sugar resistance and fireproofing directions.\"",
+    "description": "The image is a humorous comparison between two photos. The top photo shows a highway sign with two directions: one arrow pointing left labeled \"resistant to sugar\" and the other arrow pointing right labeled \"fireproof.\" The bottom photo shows a car taking a sharp turn on a road with the word \"teeth\" overlaid on it, implying that teeth are neither resistant to sugar nor fireproof.",
+    "caption": "\"Teeth: The ultimate rebels, ignoring both sugar resistance and fireproofing directions.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/teeth-be-like-v0-jc47tit7p0je1.jpeg?auto=webp&s=2e7f337caf39edde20512f838d0a40ed4d320770",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "model_choice": "xai",
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739933204,
+      "response_ms": null
+    }
+  }
+]

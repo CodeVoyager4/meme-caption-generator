@@ -1,0 +1,995 @@
+[
+  {
+    "timestamp": "2025-02-18T18:53:45.264846",
+    "image_url": "https://preview.redd.it/sheryl-crow-waiving-to-her-tesla-as-she-sold-it-as-a-v0-tkanlchg0lje1.jpeg?auto=webp&s=854da64f2bc34cb96888e6ae256d941a2018d67e",
+    "raw_api_response": "DESCRIPTION: A woman is standing next to a tow truck with a black car on its flatbed. The scene is set on a sunny day with autumn leaves on the ground and trees with colorful foliage in the background. The woman is waving with one hand while the other hand is in her pocket.\n\nCAPTION: \"Goodbye, sweet freedom! I'll miss you and your faulty battery!\"",
+    "description": "A woman is standing next to a tow truck with a black car on its flatbed. The scene is set on a sunny day with autumn leaves on the ground and trees with colorful foliage in the background. The woman is waving with one hand while the other hand is in her pocket.",
+    "caption": "\"Goodbye, sweet freedom! I'll miss you and your faulty battery!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/sheryl-crow-waiving-to-her-tesla-as-she-sold-it-as-a-v0-tkanlchg0lje1.jpeg?auto=webp&s=854da64f2bc34cb96888e6ae256d941a2018d67e",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926423,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T18:53:54.094811",
+    "image_url": "https://preview.redd.it/sheryl-crow-waiving-to-her-tesla-as-she-sold-it-as-a-v0-tkanlchg0lje1.jpeg?auto=webp&s=854da64f2bc34cb96888e6ae256d941a2018d67e",
+    "raw_api_response": "DESCRIPTION: A woman stands on a street with her arm raised, signaling or waving, while a tow truck with a sleek black car on its flatbed is parked behind her. The scene is set in autumn, with colorful leaves on the trees and scattered on the ground.\n\nCAPTION: \"Yes, officer, I did call for a tow truck... but I was expecting a chariot!\"",
+    "description": "A woman stands on a street with her arm raised, signaling or waving, while a tow truck with a sleek black car on its flatbed is parked behind her. The scene is set in autumn, with colorful leaves on the trees and scattered on the ground.",
+    "caption": "\"Yes, officer, I did call for a tow truck... but I was expecting a chariot!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/sheryl-crow-waiving-to-her-tesla-as-she-sold-it-as-a-v0-tkanlchg0lje1.jpeg?auto=webp&s=854da64f2bc34cb96888e6ae256d941a2018d67e",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926432,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T18:54:04.694714",
+    "image_url": "https://preview.redd.it/sheryl-crow-waiving-to-her-tesla-as-she-sold-it-as-a-v0-tkanlchg0lje1.jpeg?auto=webp&s=854da64f2bc34cb96888e6ae256d941a2018d67e",
+    "raw_api_response": "DESCRIPTION: A person is standing on a street next to a tow truck that is carrying a black Tesla car. The scene is set in autumn, with fallen leaves on the ground and colorful leaves on the trees. The person is waving with one hand and has the other hand in their pocket.\n\nCAPTION: \"Goodbye, cruel world! I'm off to the land of free charging stations!\"",
+    "description": "A person is standing on a street next to a tow truck that is carrying a black Tesla car. The scene is set in autumn, with fallen leaves on the ground and colorful leaves on the trees. The person is waving with one hand and has the other hand in their pocket.",
+    "caption": "\"Goodbye, cruel world! I'm off to the land of free charging stations!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/sheryl-crow-waiving-to-her-tesla-as-she-sold-it-as-a-v0-tkanlchg0lje1.jpeg?auto=webp&s=854da64f2bc34cb96888e6ae256d941a2018d67e",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926443,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T18:54:12.886300",
+    "image_url": "https://preview.redd.it/sheryl-crow-waiving-to-her-tesla-as-she-sold-it-as-a-v0-tkanlchg0lje1.jpeg?auto=webp&s=854da64f2bc34cb96888e6ae256d941a2018d67e",
+    "raw_api_response": "DESCRIPTION: A woman stands on the street, waving with one hand while the other hand is in her pocket. Behind her, a black Tesla car is being transported on the back of a tow truck. The scene is set in autumn, with fallen leaves scattered on the ground and trees with colorful foliage in the background.\n\nCAPTION: \"Goodbye, cruel world! I'm off to the land of perpetual charging!\"",
+    "description": "A woman stands on the street, waving with one hand while the other hand is in her pocket. Behind her, a black Tesla car is being transported on the back of a tow truck. The scene is set in autumn, with fallen leaves scattered on the ground and trees with colorful foliage in the background.",
+    "caption": "\"Goodbye, cruel world! I'm off to the land of perpetual charging!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/sheryl-crow-waiving-to-her-tesla-as-she-sold-it-as-a-v0-tkanlchg0lje1.jpeg?auto=webp&s=854da64f2bc34cb96888e6ae256d941a2018d67e",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926451,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T18:54:17.786951",
+    "image_url": "https://preview.redd.it/sheryl-crow-waiving-to-her-tesla-as-she-sold-it-as-a-v0-tkanlchg0lje1.jpeg?auto=webp&s=854da64f2bc34cb96888e6ae256d941a2018d67e",
+    "raw_api_response": "DESCRIPTION: A woman is standing next to a tow truck that is carrying a black Tesla car. The scene is set on a sunny autumn day with colorful leaves on the trees and ground. The woman is waving with one hand and has the other hand in her pocket.\n\nCAPTION: \"Goodbye, Elon! Thanks for the lift, but I think I'll walk from here!\"",
+    "description": "A woman is standing next to a tow truck that is carrying a black Tesla car. The scene is set on a sunny autumn day with colorful leaves on the trees and ground. The woman is waving with one hand and has the other hand in her pocket.",
+    "caption": "\"Goodbye, Elon! Thanks for the lift, but I think I'll walk from here!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/sheryl-crow-waiving-to-her-tesla-as-she-sold-it-as-a-v0-tkanlchg0lje1.jpeg?auto=webp&s=854da64f2bc34cb96888e6ae256d941a2018d67e",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926456,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T18:54:49.074912",
+    "image_url": "https://preview.redd.it/the-informal-meeting-of-european-leaders-that-assembled-v0-c0yn1tukkrje1.jpeg?width=1080&crop=smart&auto=webp&s=c70c2a8f434e13873018cbfcc08470ce5e76b239",
+    "raw_api_response": "DESCRIPTION: A group of people, presumably world leaders, are seated around a large round table in an ornate room with flags of various countries in the background. The table is covered with a white tablecloth and has documents, coffee cups, and pastries on it. The setting suggests a formal meeting or conference.\n\nCAPTION: \"And now, for the most important decision of the day: who gets the last croissant?\"",
+    "description": "A group of people, presumably world leaders, are seated around a large round table in an ornate room with flags of various countries in the background. The table is covered with a white tablecloth and has documents, coffee cups, and pastries on it. The setting suggests a formal meeting or conference.",
+    "caption": "\"And now, for the most important decision of the day: who gets the last croissant?\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/the-informal-meeting-of-european-leaders-that-assembled-v0-c0yn1tukkrje1.jpeg?width=1080&crop=smart&auto=webp&s=c70c2a8f434e13873018cbfcc08470ce5e76b239",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926487,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T18:56:24.766183",
+    "image_url": "https://preview.redd.it/the-in-memoriam-bit-is-so-much-better-and-funnier-than-v0-hw84eq94tpje1.jpeg?width=1080&crop=smart&auto=webp&s=ab966ffd2646c0ce08dfa8045a0f4589d15ba423",
+    "raw_api_response": "DESCRIPTION: This image is a collage of various controversial sketches from Saturday Night Live (SNL). Each section of the collage highlights a different problematic theme with a corresponding image from the show. The themes include ethnic stereotypes and sexual harassment, racial slurs, a couple of problems here, child molestation, body shaming, and problematic guests. The central part of the collage is a tribute to characters and sketches that have aged horribly.\n\nCAPTION: \"SNL writers meeting: 'How can we make sure we're never invited to any future parties?'\"",
+    "description": "This image is a collage of various controversial sketches from Saturday Night Live (SNL). Each section of the collage highlights a different problematic theme with a corresponding image from the show. The themes include ethnic stereotypes and sexual harassment, racial slurs, a couple of problems here, child molestation, body shaming, and problematic guests. The central part of the collage is a tribute to characters and sketches that have aged horribly.",
+    "caption": "\"SNL writers meeting: 'How can we make sure we're never invited to any future parties?'\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/the-in-memoriam-bit-is-so-much-better-and-funnier-than-v0-hw84eq94tpje1.jpeg?width=1080&crop=smart&auto=webp&s=ab966ffd2646c0ce08dfa8045a0f4589d15ba423",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926582,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T18:57:07.604034",
+    "image_url": "https://preview.redd.it/the-in-memoriam-bit-is-so-much-better-and-funnier-than-v0-hw84eq94tpje1.jpeg?width=1080&crop=smart&auto=webp&s=ab966ffd2646c0ce08dfa8045a0f4589d15ba423",
+    "raw_api_response": "DESCRIPTION: This image is a collage of various scenes from a comedy show, each labeled with a controversial or problematic theme. The scenes include ethnic stereotypes and sexual harassment, racial slurs, a memorial for aged sketches, a couple of problems here, child molestation, body shaming, and problematic guests.\n\nCAPTION: \"Welcome to the annual 'Comedy Show Controversy Awards' - where every sketch is a winner in the court of public opinion!\"",
+    "description": "This image is a collage of various scenes from a comedy show, each labeled with a controversial or problematic theme. The scenes include ethnic stereotypes and sexual harassment, racial slurs, a memorial for aged sketches, a couple of problems here, child molestation, body shaming, and problematic guests.",
+    "caption": "\"Welcome to the annual 'Comedy Show Controversy Awards' - where every sketch is a winner in the court of public opinion!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/the-in-memoriam-bit-is-so-much-better-and-funnier-than-v0-hw84eq94tpje1.jpeg?width=1080&crop=smart&auto=webp&s=ab966ffd2646c0ce08dfa8045a0f4589d15ba423",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926625,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T18:57:14.595072",
+    "image_url": "https://preview.redd.it/the-in-memoriam-bit-is-so-much-better-and-funnier-than-v0-hw84eq94tpje1.jpeg?width=1080&crop=smart&auto=webp&s=ab966ffd2646c0ce08dfa8045a0f4589d15ba423",
+    "raw_api_response": "DESCRIPTION: This image is a collage of various scenes from old SNL sketches that have aged poorly, each labeled with the problematic issue they represent. The top left shows a scene labeled \"ETHNIC STEREOTYPES & SEXUAL HARASSMENT\" with people dressed in ethnic costumes. The top right is a memorial for SNL characters and sketches that have aged horribly. The middle left shows a scene labeled \"RACIAL SLURS\" with a person in a turban. The middle right is labeled \"COUPLE OF PROBLEMS HERE\" with two people in problematic costumes. The bottom left shows a scene labeled \"CHILD MOLESTATION\" with people in sailor outfits. The bottom middle is labeled \"STRIPPEDALES\" with a person in a Chippendales-style outfit. The bottom right is labeled \"PROBLEMATIC GUESTS\" with a person in a controversial shirt.\n\nCAPTION: \"SNL's time capsule: A treasure trove of comedy... or a minefield of HR violations?\"",
+    "description": "This image is a collage of various scenes from old SNL sketches that have aged poorly, each labeled with the problematic issue they represent. The top left shows a scene labeled \"ETHNIC STEREOTYPES & SEXUAL HARASSMENT\" with people dressed in ethnic costumes. The top right is a memorial for SNL characters and sketches that have aged horribly. The middle left shows a scene labeled \"RACIAL SLURS\" with a person in a turban. The middle right is labeled \"COUPLE OF PROBLEMS HERE\" with two people in problematic costumes. The bottom left shows a scene labeled \"CHILD MOLESTATION\" with people in sailor outfits. The bottom middle is labeled \"STRIPPEDALES\" with a person in a Chippendales-style outfit. The bottom right is labeled \"PROBLEMATIC GUESTS\" with a person in a controversial shirt.",
+    "caption": "\"SNL's time capsule: A treasure trove of comedy... or a minefield of HR violations?\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/the-in-memoriam-bit-is-so-much-better-and-funnier-than-v0-hw84eq94tpje1.jpeg?width=1080&crop=smart&auto=webp&s=ab966ffd2646c0ce08dfa8045a0f4589d15ba423",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926630,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T18:57:55.914151",
+    "image_url": "https://preview.redd.it/the-in-memoriam-bit-is-so-much-better-and-funnier-than-v0-hw84eq94tpje1.jpeg?width=1080&crop=smart&auto=webp&s=ab966ffd2646c0ce08dfa8045a0f4589d15ba423",
+    "raw_api_response": "DESCRIPTION: This image is a collage of various controversial sketches from Saturday Night Live (SNL) that have aged poorly. Each section of the collage is labeled with the type of problematic content it represents, such as \"Ethnic Stereotypes & Sexual Harassment,\" \"Racial Slurs,\" \"Couple of Problems Here,\" \"Child Molestation,\" \"Body Shaming,\" and \"Problematic Guests.\" The central image is a memorial to characters and sketches from SNL that have aged horribly.\n\nCAPTION: \"Ah, the good old days of SNL... when 'edgy' meant 'let's see how many people we can offend in one sketch!'\"",
+    "description": "This image is a collage of various controversial sketches from Saturday Night Live (SNL) that have aged poorly. Each section of the collage is labeled with the type of problematic content it represents, such as \"Ethnic Stereotypes & Sexual Harassment,\" \"Racial Slurs,\" \"Couple of Problems Here,\" \"Child Molestation,\" \"Body Shaming,\" and \"Problematic Guests.\" The central image is a memorial to characters and sketches from SNL that have aged horribly.",
+    "caption": "\"Ah, the good old days of SNL... when 'edgy' meant 'let's see how many people we can offend in one sketch!'\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/the-in-memoriam-bit-is-so-much-better-and-funnier-than-v0-hw84eq94tpje1.jpeg?width=1080&crop=smart&auto=webp&s=ab966ffd2646c0ce08dfa8045a0f4589d15ba423",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926673,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T18:58:13.553931",
+    "image_url": "https://preview.redd.it/what-do-you-assume-about-me-based-off-of-my-most-recent-v0-ajy11shk8tje1.jpeg?width=1080&crop=smart&auto=webp&s=9e263d1d3705745c9c553488c85f5d7ec78062a0",
+    "raw_api_response": "DESCRIPTION: The image shows a kitchen counter filled with various groceries. There are items like tortilla strips, instant oats, organic waffles, butter, maple syrup, mandarin oranges, cottage cheese, mozzarella balls, potatoes, carrots, green onions, beef, beans, milk, lettuce, croutons, and some snack foods like chips and candy.\n\nCAPTION: After realizing they forgot the kitchen sink, the Smiths decided to make do with what they had.",
+    "description": "The image shows a kitchen counter filled with various groceries. There are items like tortilla strips, instant oats, organic waffles, butter, maple syrup, mandarin oranges, cottage cheese, mozzarella balls, potatoes, carrots, green onions, beef, beans, milk, lettuce, croutons, and some snack foods like chips and candy.",
+    "caption": "After realizing they forgot the kitchen sink, the Smiths decided to make do with what they had.",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/what-do-you-assume-about-me-based-off-of-my-most-recent-v0-ajy11shk8tje1.jpeg?width=1080&crop=smart&auto=webp&s=9e263d1d3705745c9c553488c85f5d7ec78062a0",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926691,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T18:58:45.433683",
+    "image_url": "https://preview.redd.it/this-not-so-bright-cardinal-keeps-getting-stuck-in-my-porch-v0-rq9ty5ut7zje1.jpeg?width=1080&crop=smart&auto=webp&s=3de5f779cb1c674ae4237600496bc25723e53d3f",
+    "raw_api_response": "DESCRIPTION: A person with long brown hair is holding a vibrant red cardinal bird with a black face mask and orange beak. The background shows an outdoor setting with trees, a wooden fence, and a patio area.\n\nCAPTION: \"I told you, it's not a toupee, it's my natural crest!\"",
+    "description": "A person with long brown hair is holding a vibrant red cardinal bird with a black face mask and orange beak. The background shows an outdoor setting with trees, a wooden fence, and a patio area.",
+    "caption": "\"I told you, it's not a toupee, it's my natural crest!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/this-not-so-bright-cardinal-keeps-getting-stuck-in-my-porch-v0-rq9ty5ut7zje1.jpeg?width=1080&crop=smart&auto=webp&s=3de5f779cb1c674ae4237600496bc25723e53d3f",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926723,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T18:59:23.427006",
+    "image_url": "https://preview.redd.it/delta-crash-in-toronto-today-feb-17-2025-v0-vckycd8aarje1.jpeg?width=1080&crop=smart&auto=webp&s=0cb6aea5313145f2d50d630f0a64b5b188b57f9a",
+    "raw_api_response": "DESCRIPTION: An airplane has skidded off the runway and is resting on a snowy surface. Smoke is coming from the front of the plane, indicating a possible engine fire or damage. Several people, including what appear to be emergency responders and passengers, are standing around the plane, observing the situation.\n\nCAPTION: \"Well, folks, looks like we've arrived at our final destination... the middle of nowhere!\"",
+    "description": "An airplane has skidded off the runway and is resting on a snowy surface. Smoke is coming from the front of the plane, indicating a possible engine fire or damage. Several people, including what appear to be emergency responders and passengers, are standing around the plane, observing the situation.",
+    "caption": "\"Well, folks, looks like we've arrived at our final destination... the middle of nowhere!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/delta-crash-in-toronto-today-feb-17-2025-v0-vckycd8aarje1.jpeg?width=1080&crop=smart&auto=webp&s=0cb6aea5313145f2d50d630f0a64b5b188b57f9a",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926761,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T18:59:47.013536",
+    "image_url": "https://preview.redd.it/potential-u-s-peace-plan-for-ukraine-v0-l7l5or3nqyje1.jpeg?auto=webp&s=41bcf038349f629565bf6082486bd83c10f51a7c",
+    "raw_api_response": "DESCRIPTION: The image is a map titled \"Ukraine Peace Plan\" that outlines a hypothetical scenario for ending the Ukraine war under Trump's plan. The map shows NATO members in blue, areas under Russian control in red, and Ukraine in white. Key points include: Ukraine accepting Russian sovereignty over controlled land, Kyiv being banned from NATO and declaring neutrality, Ukraine withdrawing from Kursk, Trump demanding $500 billion worth of rare Ukrainian minerals, a ceasefire by Easter on April 20, and a demilitarized zone in Crimea policed by European and UK troops. Symbols of flags and military icons are scattered across the map.\n\nCAPTION: \"And in a surprising turn of events, the Easter Bunny was appointed as the chief negotiator for the ceasefire.\"",
+    "description": "The image is a map titled \"Ukraine Peace Plan\" that outlines a hypothetical scenario for ending the Ukraine war under Trump's plan. The map shows NATO members in blue, areas under Russian control in red, and Ukraine in white. Key points include: Ukraine accepting Russian sovereignty over controlled land, Kyiv being banned from NATO and declaring neutrality, Ukraine withdrawing from Kursk, Trump demanding $500 billion worth of rare Ukrainian minerals, a ceasefire by Easter on April 20, and a demilitarized zone in Crimea policed by European and UK troops. Symbols of flags and military icons are scattered across the map.",
+    "caption": "\"And in a surprising turn of events, the Easter Bunny was appointed as the chief negotiator for the ceasefire.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/potential-u-s-peace-plan-for-ukraine-v0-l7l5or3nqyje1.jpeg?auto=webp&s=41bcf038349f629565bf6082486bd83c10f51a7c",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926784,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:00:43.207972",
+    "image_url": "https://preview.redd.it/are-pastas-like-this-from-my-local-tjmaxx-high-quality-or-v0-9y8b5pw80qje1.jpeg?width=1080&crop=smart&auto=webp&s=c249af08cfef0fdbbad6ca8030e7f6bd3284ce51",
+    "raw_api_response": "DESCRIPTION: The image shows a display of various types of pasta in colorful packaging on a store shelf. There are different shapes of pasta, including shells, spirals, and noodles, with labels indicating brands like \"Pro Italiano\" and \"Livera.\" The packages feature images of Italian landmarks and some have blue ribbons tied around them. Behind the pasta, there are jars of spices and other food items.\n\nCAPTION: \"In the secret society of pasta, the shells were always plotting something, while the noodles just went with the flow.\"",
+    "description": "The image shows a display of various types of pasta in colorful packaging on a store shelf. There are different shapes of pasta, including shells, spirals, and noodles, with labels indicating brands like \"Pro Italiano\" and \"Livera.\" The packages feature images of Italian landmarks and some have blue ribbons tied around them. Behind the pasta, there are jars of spices and other food items.",
+    "caption": "\"In the secret society of pasta, the shells were always plotting something, while the noodles just went with the flow.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/are-pastas-like-this-from-my-local-tjmaxx-high-quality-or-v0-9y8b5pw80qje1.jpeg?width=1080&crop=smart&auto=webp&s=c249af08cfef0fdbbad6ca8030e7f6bd3284ce51",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926840,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:01:13.418186",
+    "image_url": "https://preview.redd.it/is-this-a-good-telescope-to-start-with-v0-9vyaul64ryje1.jpeg?width=1080&crop=smart&auto=webp&s=725a4a7f6d08d66c1c78a998facfced5f5f997b3",
+    "raw_api_response": "DESCRIPTION: The image shows a Celestron 130 Telescope, labeled as brand new and never used, set up on a tripod indoors. The telescope is blue with various adjustment knobs and is placed on a patterned rug next to a curtain.\n\nCAPTION: \"After years of waiting, the telescope finally got its chance to see the inside of the living room.\"",
+    "description": "The image shows a Celestron 130 Telescope, labeled as brand new and never used, set up on a tripod indoors. The telescope is blue with various adjustment knobs and is placed on a patterned rug next to a curtain.",
+    "caption": "\"After years of waiting, the telescope finally got its chance to see the inside of the living room.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/is-this-a-good-telescope-to-start-with-v0-9vyaul64ryje1.jpeg?width=1080&crop=smart&auto=webp&s=725a4a7f6d08d66c1c78a998facfced5f5f997b3",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926871,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:01:48.046559",
+    "image_url": "https://preview.redd.it/leaving-a-concert-when-you-remember-you-left-your-bag-on-v0-tgcfhgw9cyje1.jpeg?width=1080&crop=smart&auto=webp&s=99dac90336225e07549912cd0093322a201a2413",
+    "raw_api_response": "DESCRIPTION: The image shows a large stadium filled with a massive crowd of people, likely attending a concert or large event. The stadium is well-lit, and there are people walking down the stairs towards the seating area. The atmosphere appears lively and energetic.\n\nCAPTION: \"The annual gathering of the world's largest fan club for silence and solitude.\"",
+    "description": "The image shows a large stadium filled with a massive crowd of people, likely attending a concert or large event. The stadium is well-lit, and there are people walking down the stairs towards the seating area. The atmosphere appears lively and energetic.",
+    "caption": "\"The annual gathering of the world's largest fan club for silence and solitude.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/leaving-a-concert-when-you-remember-you-left-your-bag-on-v0-tgcfhgw9cyje1.jpeg?width=1080&crop=smart&auto=webp&s=99dac90336225e07549912cd0093322a201a2413",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926906,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:02:07.624017",
+    "image_url": "https://preview.redd.it/soup-anyone-v0-g85kg0g2m0je1.jpeg?auto=webp&s=955ee7bc51bba0d54b2ea9859f1b8f19dffc5042",
+    "raw_api_response": "DESCRIPTION: The image shows a bowl of what appears to be a stew or soup with large, glossy dumplings or pieces of meat on top. The bowl is placed on a white plate, and in the background, there is a glass of an amber-colored drink and a small metal cup with a white substance inside.\n\nCAPTION: \"At the annual Oyster Beauty Pageant, contestants were judged on poise, elegance, and how well they floated in soup.\"",
+    "description": "The image shows a bowl of what appears to be a stew or soup with large, glossy dumplings or pieces of meat on top. The bowl is placed on a white plate, and in the background, there is a glass of an amber-colored drink and a small metal cup with a white substance inside.",
+    "caption": "\"At the annual Oyster Beauty Pageant, contestants were judged on poise, elegance, and how well they floated in soup.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/soup-anyone-v0-g85kg0g2m0je1.jpeg?auto=webp&s=955ee7bc51bba0d54b2ea9859f1b8f19dffc5042",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926925,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:02:30.633040",
+    "image_url": "https://preview.redd.it/soup-anyone-v0-g85kg0g2m0je1.jpeg?auto=webp&s=955ee7bc51bba0d54b2ea9859f1b8f19dffc5042",
+    "raw_api_response": "DESCRIPTION: A bowl of what appears to be a stew or soup with large, glossy, brownish dumplings or pieces of meat in a rich, dark broth. In the background, there is a glass of amber-colored liquid and a small metal cup with a white substance.\n\nCAPTION: \"At the annual oyster costume contest, Bob's disguise was a little too convincing.\"",
+    "description": "A bowl of what appears to be a stew or soup with large, glossy, brownish dumplings or pieces of meat in a rich, dark broth. In the background, there is a glass of amber-colored liquid and a small metal cup with a white substance.",
+    "caption": "\"At the annual oyster costume contest, Bob's disguise was a little too convincing.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/soup-anyone-v0-g85kg0g2m0je1.jpeg?auto=webp&s=955ee7bc51bba0d54b2ea9859f1b8f19dffc5042",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739926949,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:03:29.152450",
+    "image_url": "https://preview.redd.it/soup-anyone-v0-g85kg0g2m0je1.jpeg?auto=webp&s=955ee7bc51bba0d54b2ea9859f1b8f19dffc5042",
+    "raw_api_response": "DESCRIPTION: A bowl of what appears to be a brown stew or soup with large, glossy, brownish objects that resemble cooked oysters or some kind of seafood. There is a glass of what looks like iced tea and a small metal cup in the background.\n\nCAPTION: \"At the annual Oyster Costume Ball, the oysters always felt a bit self-conscious about their natural attire.\"",
+    "description": "A bowl of what appears to be a brown stew or soup with large, glossy, brownish objects that resemble cooked oysters or some kind of seafood. There is a glass of what looks like iced tea and a small metal cup in the background.",
+    "caption": "\"At the annual Oyster Costume Ball, the oysters always felt a bit self-conscious about their natural attire.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/soup-anyone-v0-g85kg0g2m0je1.jpeg?auto=webp&s=955ee7bc51bba0d54b2ea9859f1b8f19dffc5042",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739927007,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:03:45.474231",
+    "image_url": "https://preview.redd.it/least-blatant-cashgrab-v0-9oks42jofyje1.jpeg?auto=webp&s=ec80e0657fe11f793c8ba732f98474891d4b8eed",
+    "raw_api_response": "DESCRIPTION: The image is divided into two parts. The top part shows a character from a video game, likely a warrior or hero, with a glowing weapon in a fiery background. The bottom part is a black-and-white manga panel where a girl with long hair is sitting in a theater, looking unimpressed and crying. Two speech bubbles are present: one says \"...IS SO ASS.\" and the other says \"THIS SHIT...\"\n\nCAPTION: Even the mighty warrior couldn't escape the harsh critique of the anime club.",
+    "description": "The image is divided into two parts. The top part shows a character from a video game, likely a warrior or hero, with a glowing weapon in a fiery background. The bottom part is a black-and-white manga panel where a girl with long hair is sitting in a theater, looking unimpressed and crying. Two speech bubbles are present: one says \"...IS SO ASS.\" and the other says \"THIS SHIT...\"",
+    "caption": "Even the mighty warrior couldn't escape the harsh critique of the anime club.",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/least-blatant-cashgrab-v0-9oks42jofyje1.jpeg?auto=webp&s=ec80e0657fe11f793c8ba732f98474891d4b8eed",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739927023,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:04:42.137430",
+    "image_url": "https://preview.redd.it/our-little-boy-has-an-old-soul-so-we-are-wanting-an-old-v0-epaoj6utrmje1.jpeg?width=1080&crop=smart&auto=webp&s=d984f4844d71d41802f44d305292c0518a47bcd9",
+    "raw_api_response": "DESCRIPTION: A close-up image of an adorable orange kitten with big, sad eyes being held gently in a person's hand. The background shows a blurred outdoor setting with some greenery and a building.\n\nCAPTION: \"I told you I wanted the deluxe catnip toy, not the economy size!\"",
+    "description": "A close-up image of an adorable orange kitten with big, sad eyes being held gently in a person's hand. The background shows a blurred outdoor setting with some greenery and a building.",
+    "caption": "\"I told you I wanted the deluxe catnip toy, not the economy size!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/our-little-boy-has-an-old-soul-so-we-are-wanting-an-old-v0-epaoj6utrmje1.jpeg?width=1080&crop=smart&auto=webp&s=d984f4844d71d41802f44d305292c0518a47bcd9",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739927080,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:05:59.462226",
+    "image_url": "https://external-preview.redd.it/SVh8O_8gAk5IvhAVGjISvJQiTKo9FtJYOkWmzKkOFVc.jpg?width=1080&crop=smart&auto=webp&s=5bd5575d2be7d270ab2cca4a851f679194ac47a4",
+    "raw_api_response": "DESCRIPTION: A man is sitting on a couch holding a happy dog upside down in his lap. The dog is smiling with its tongue out. The Hill's Science Diet logo is in the top left corner, with the text \"your best friend's best life\" and \"SCIENCE DID THAT.\" in the bottom right corner.\n\nCAPTION: \"I've discovered the secret to eternal happiness: just flip your human over and tickle their belly!\"",
+    "description": "A man is sitting on a couch holding a happy dog upside down in his lap. The dog is smiling with its tongue out. The Hill's Science Diet logo is in the top left corner, with the text \"your best friend's best life\" and \"SCIENCE DID THAT.\" in the bottom right corner.",
+    "caption": "\"I've discovered the secret to eternal happiness: just flip your human over and tickle their belly!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://external-preview.redd.it/SVh8O_8gAk5IvhAVGjISvJQiTKo9FtJYOkWmzKkOFVc.jpg?width=1080&crop=smart&auto=webp&s=5bd5575d2be7d270ab2cca4a851f679194ac47a4",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739927157,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:08:57.874590",
+    "image_url": "https://preview.redd.it/dr-freud-missed-this-v0-w8e5xmb3syje1.jpeg?auto=webp&s=5daeb8eda0f66b0c2b0be1ad8152032e63d92df6",
+    "raw_api_response": "DESCRIPTION: The image features a person wearing a dark hoodie, with their face partially illuminated. The text above the image reads, \"I may look normal but,\" and the text below reads, \"I used to support Tom instead of Jerry in childhood.\"\n\nCAPTION: \"In a world where everyone cheered for Jerry, I was Tom's only fan... and his therapist.\"",
+    "description": "The image features a person wearing a dark hoodie, with their face partially illuminated. The text above the image reads, \"I may look normal but,\" and the text below reads, \"I used to support Tom instead of Jerry in childhood.\"",
+    "caption": "\"In a world where everyone cheered for Jerry, I was Tom's only fan... and his therapist.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/dr-freud-missed-this-v0-w8e5xmb3syje1.jpeg?auto=webp&s=5daeb8eda0f66b0c2b0be1ad8152032e63d92df6",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739927336,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:10:14.031146",
+    "image_url": "https://external-preview.redd.it/where-does-this-picture-of-the-jumping-man-comes-from-v0-lY7RP4qNWVdcEovzZ5wHgywQ8vv0mveuHzLmYiNUn2k.jpg?width=1080&crop=smart&auto=webp&s=999a1af1878c5ceae23af076a007921758235e48",
+    "raw_api_response": "DESCRIPTION: The image shows a person wearing a red suit and tie, with a white mask that has exaggerated features, including a long, curved nose and a textured face. The person has a curly black wig and is standing in front of a green background with a fan and some equipment visible.\n\nCAPTION: \"In a surprising turn of events, Pinocchio decided to run for mayor and promised to keep his nose out of politics.\"",
+    "description": "The image shows a person wearing a red suit and tie, with a white mask that has exaggerated features, including a long, curved nose and a textured face. The person has a curly black wig and is standing in front of a green background with a fan and some equipment visible.",
+    "caption": "\"In a surprising turn of events, Pinocchio decided to run for mayor and promised to keep his nose out of politics.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://external-preview.redd.it/where-does-this-picture-of-the-jumping-man-comes-from-v0-lY7RP4qNWVdcEovzZ5wHgywQ8vv0mveuHzLmYiNUn2k.jpg?width=1080&crop=smart&auto=webp&s=999a1af1878c5ceae23af076a007921758235e48",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739927412,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:10:54.040634",
+    "image_url": "https://external-preview.redd.it/where-does-this-picture-of-the-jumping-man-comes-from-v0-lY7RP4qNWVdcEovzZ5wHgywQ8vv0mveuHzLmYiNUn2k.jpg?width=1080&crop=smart&auto=webp&s=999a1af1878c5ceae23af076a007921758235e48",
+    "raw_api_response": "DESCRIPTION: The image shows a person wearing a red suit and tie, with a mask that has exaggerated features including a large nose, white face, and black curly hair. The background is green with a fan and some equipment visible.\n\nCAPTION: \"In a bold move to blend in, Pinocchio decides to join the circus as a clown.\"",
+    "description": "The image shows a person wearing a red suit and tie, with a mask that has exaggerated features including a large nose, white face, and black curly hair. The background is green with a fan and some equipment visible.",
+    "caption": "\"In a bold move to blend in, Pinocchio decides to join the circus as a clown.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://external-preview.redd.it/where-does-this-picture-of-the-jumping-man-comes-from-v0-lY7RP4qNWVdcEovzZ5wHgywQ8vv0mveuHzLmYiNUn2k.jpg?width=1080&crop=smart&auto=webp&s=999a1af1878c5ceae23af076a007921758235e48",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739927452,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:11:46.150562",
+    "image_url": "https://preview.redd.it/italian-police-drove-a-lamborghini-huracan-500km-from-padua-v0-9bjwze3dlpje1.jpeg?auto=webp&s=822aca0104fccbff8540fa9c9f1c3b67abe1d39f",
+    "raw_api_response": "DESCRIPTION: The image is split into two parts. On the left, a doctor and a firefighter are placing a blue cooler into the trunk of a police car. On the right, three police officers are standing next to the same police car, with the doctor holding the blue cooler. In the background, a person in casual clothes is taking a photo through the window of a shopping gallery.\n\nCAPTION: \"When you call the emergency services, but they're all just delivering your lunch order.\"",
+    "description": "The image is split into two parts. On the left, a doctor and a firefighter are placing a blue cooler into the trunk of a police car. On the right, three police officers are standing next to the same police car, with the doctor holding the blue cooler. In the background, a person in casual clothes is taking a photo through the window of a shopping gallery.",
+    "caption": "\"When you call the emergency services, but they're all just delivering your lunch order.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/italian-police-drove-a-lamborghini-huracan-500km-from-padua-v0-9bjwze3dlpje1.jpeg?auto=webp&s=822aca0104fccbff8540fa9c9f1c3b67abe1d39f",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739927504,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:14:23.280324",
+    "image_url": "https://preview.redd.it/kevin-hart-showing-his-stature-at-the-nba-all-star-game-v0-1hk09330amje1.jpeg?width=1080&crop=smart&auto=webp&s=316ae59dcd1cf7ed73008a5199c5d78b5b3c9388",
+    "raw_api_response": "DESCRIPTION: The image shows a group of people standing on a basketball court during the NBA All-Star 2025 event. The court has a large \"ALL-STAR\" logo in the center. One person is wearing a white tracksuit with yellow shoes, another is in a gray suit and hat, and others are in formal attire, including a man in a blue suit with glasses holding a microphone. The background shows a crowded arena with blue lighting.\n\nCAPTION: \"And the award for Best Dressed goes to... everyone but the guy in the yellow shoes.\"",
+    "description": "The image shows a group of people standing on a basketball court during the NBA All-Star 2025 event. The court has a large \"ALL-STAR\" logo in the center. One person is wearing a white tracksuit with yellow shoes, another is in a gray suit and hat, and others are in formal attire, including a man in a blue suit with glasses holding a microphone. The background shows a crowded arena with blue lighting.",
+    "caption": "\"And the award for Best Dressed goes to... everyone but the guy in the yellow shoes.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/kevin-hart-showing-his-stature-at-the-nba-all-star-game-v0-1hk09330amje1.jpeg?width=1080&crop=smart&auto=webp&s=316ae59dcd1cf7ed73008a5199c5d78b5b3c9388",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739927661,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:15:21.110212",
+    "image_url": "https://preview.redd.it/this-morning-downtown-v0-z9lmx1leerje1.jpg?width=1080&crop=smart&auto=webp&s=b54f841035a2a8998a3dbd3f5ab55711d482aed9",
+    "raw_api_response": "DESCRIPTION: A group of people are participating in a protest, holding various signs with political messages. The signs include messages like \"NO TRUMP LIES,\" \"IMPEACH,\" \"DESPOTIC,\" \"PROTECT DEMOCRACY 2025,\" and \"IMMIGRANTS TIENEN DERECHOS.\" One person is bending over, possibly picking something up or tying their shoe, while another protester behind them is holding a sign that says \"PEOPLE OVER PROFIT.\"\n\nCAPTION: \"Amidst the protest, Dave realized he'd dropped his protest etiquette guide.\"",
+    "description": "A group of people are participating in a protest, holding various signs with political messages. The signs include messages like \"NO TRUMP LIES,\" \"IMPEACH,\" \"DESPOTIC,\" \"PROTECT DEMOCRACY 2025,\" and \"IMMIGRANTS TIENEN DERECHOS.\" One person is bending over, possibly picking something up or tying their shoe, while another protester behind them is holding a sign that says \"PEOPLE OVER PROFIT.\"",
+    "caption": "\"Amidst the protest, Dave realized he'd dropped his protest etiquette guide.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/this-morning-downtown-v0-z9lmx1leerje1.jpg?width=1080&crop=smart&auto=webp&s=b54f841035a2a8998a3dbd3f5ab55711d482aed9",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739927718,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:15:35.353443",
+    "image_url": "https://preview.redd.it/this-morning-downtown-v0-z9lmx1leerje1.jpg?width=1080&crop=smart&auto=webp&s=b54f841035a2a8998a3dbd3f5ab55711d482aed9",
+    "raw_api_response": "DESCRIPTION: A group of people are participating in a protest or rally, holding various signs with messages such as \"NO TRUMP LIES,\" \"IMPEACH,\" \"PROTECT DEMOCRACY,\" \"STOP PROFIT OVER PEOPLE,\" and \"IMMIGRANTS TIENEN DERECHOS.\" The scene takes place on a city street with buildings and leafless trees in the background. One person is bending over to take a photo.\n\nCAPTION: \"Protesting for democracy, one sign at a time, while Bob captures the moment for his Instagram story.\"",
+    "description": "A group of people are participating in a protest or rally, holding various signs with messages such as \"NO TRUMP LIES,\" \"IMPEACH,\" \"PROTECT DEMOCRACY,\" \"STOP PROFIT OVER PEOPLE,\" and \"IMMIGRANTS TIENEN DERECHOS.\" The scene takes place on a city street with buildings and leafless trees in the background. One person is bending over to take a photo.",
+    "caption": "\"Protesting for democracy, one sign at a time, while Bob captures the moment for his Instagram story.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/this-morning-downtown-v0-z9lmx1leerje1.jpg?width=1080&crop=smart&auto=webp&s=b54f841035a2a8998a3dbd3f5ab55711d482aed9",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739927733,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:15:52.871637",
+    "image_url": "https://preview.redd.it/why-brice-always-look-miserable-v0-ycw62hekwrje1.jpeg?width=1080&crop=smart&auto=webp&s=7c3c074bacfa0ec4230b7345a8c92ab74995480c",
+    "raw_api_response": "DESCRIPTION: Two people, a man and a woman, are sitting on a red couch in a room with blue walls. The man is wearing a blue shirt and jeans, while the woman is wearing a light-colored sweater and black pants. There are framed pictures on the wall behind them, and a plant on a table to the left. The text at the bottom of the image reads, \"by going on a double date.\"\n\nCAPTION: \"Their idea of a double date was watching paint dry... together.\"",
+    "description": "Two people, a man and a woman, are sitting on a red couch in a room with blue walls. The man is wearing a blue shirt and jeans, while the woman is wearing a light-colored sweater and black pants. There are framed pictures on the wall behind them, and a plant on a table to the left. The text at the bottom of the image reads, \"by going on a double date.\"",
+    "caption": "\"Their idea of a double date was watching paint dry... together.\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://preview.redd.it/why-brice-always-look-miserable-v0-ycw62hekwrje1.jpeg?width=1080&crop=smart&auto=webp&s=7c3c074bacfa0ec4230b7345a8c92ab74995480c",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739927750,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:16:47.370723",
+    "image_url": "https://pbs.twimg.com/card_img/1889567179420446720/LDyOR9n5?format=jpg&name=small",
+    "raw_api_response": "DESCRIPTION: The image shows two small birds perched on a moss-covered branch. One bird is brightly colored with yellow, black, and white feathers and a distinctive crest on its head. The other bird is more subdued in color, with shades of gray and brown. They appear to be facing each other, with their beaks open as if they are singing or talking to each other. The background is a blur of green foliage.\n\nCAPTION: \"I'm telling you, Bob, the early bird gets the worm, but the second mouse gets the cheese!\"",
+    "description": "The image shows two small birds perched on a moss-covered branch. One bird is brightly colored with yellow, black, and white feathers and a distinctive crest on its head. The other bird is more subdued in color, with shades of gray and brown. They appear to be facing each other, with their beaks open as if they are singing or talking to each other. The background is a blur of green foliage.",
+    "caption": "\"I'm telling you, Bob, the early bird gets the worm, but the second mouse gets the cheese!\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://pbs.twimg.com/card_img/1889567179420446720/LDyOR9n5?format=jpg&name=small",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739927805,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:18:03.561222",
+    "image_url": "https://pbs.twimg.com/media/GkEGoOBbcAAw7fj?format=jpg&name=small",
+    "raw_api_response": "DESCRIPTION: The image shows a collection of nine graphs representing different mathematical functions. Each graph includes the function's name, the equation \\( f(x) \\), the domain, and the range. The functions depicted are Identity (\\( y = x \\)), Square (\\( y = x^2 \\)), Square Root (\\( y = \\sqrt{x} \\)), Cubic (\\( y = x^3 \\)), Cube Root (\\( y = \\sqrt[3]{x} \\)), Reciprocal (\\( y = \\frac{1}{x} \\)), Absolute Value (\\( y = |x| \\)), Exponential (\\( y = e^x \\)), and Natural Logarithm (\\( y = \\ln(x) \\)). Each graph is plotted on a coordinate plane with axes labeled, and the curves illustrate the behavior of each function.\n\nCAPTION: \"Math functions at their annual family reunion: 'Square Root, you've really branched out! And Cube Root, you're looking sharp as always. Reciprocal, you're still the odd one out, aren't you?'\"",
+    "description": "The image shows a collection of nine graphs representing different mathematical functions. Each graph includes the function's name, the equation \\( f(x) \\), the domain, and the range. The functions depicted are Identity (\\( y = x \\)), Square (\\( y = x^2 \\)), Square Root (\\( y = \\sqrt{x} \\)), Cubic (\\( y = x^3 \\)), Cube Root (\\( y = \\sqrt[3]{x} \\)), Reciprocal (\\( y = \\frac{1}{x} \\)), Absolute Value (\\( y = |x| \\)), Exponential (\\( y = e^x \\)), and Natural Logarithm (\\( y = \\ln(x) \\)). Each graph is plotted on a coordinate plane with axes labeled, and the curves illustrate the behavior of each function.",
+    "caption": "\"Math functions at their annual family reunion: 'Square Root, you've really branched out! And Cube Root, you're looking sharp as always. Reciprocal, you're still the odd one out, aren't you?'\"",
+    "messages_sent": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://pbs.twimg.com/media/GkEGoOBbcAAw7fj?format=jpg&name=small",
+              "detail": "high"
+            }
+          },
+          {
+            "type": "text",
+            "text": "First describe what's in this image, then create a humorous Far Side-style caption for it. Format the response as: DESCRIPTION: (description) CAPTION: (funny caption)"
+          }
+        ]
+      }
+    ],
+    "completion_data": {
+      "model": "grok-2-vision-1212",
+      "created": 1739927879,
+      "response_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-02-18T19:18:28.943118",
+    "image_url": "https://pbs.twimg.com/media/GkEGoOBbcAAw7fj?format=jpg&name=small",
+    "raw_api_response": 
