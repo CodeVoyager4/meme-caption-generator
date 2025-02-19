@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, send_file, redirect, url_for
+from flask import Flask, render_template, request, send_file, redirect, url_for, jsonify, send_from_directory
 from openai import OpenAI, AzureOpenAI
 import os
 import json
@@ -13,8 +13,10 @@ from pathlib import Path
 import praw
 from functools import lru_cache
 import sqlite3
+import secrets
+import string
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
 
 # Add this after app initialization
 SAVES_DIR = Path("saves")
@@ -62,6 +64,8 @@ def invalidate_cache():
 def init_db():
     conn = sqlite3.connect('memes.db')
     c = conn.cursor()
+    
+    # Create memes table
     c.execute('''
         CREATE TABLE IF NOT EXISTS memes (
             timestamp TEXT PRIMARY KEY,
@@ -72,11 +76,23 @@ def init_db():
             messages_sent TEXT,
             model_choice TEXT,
             completion_data TEXT,
-            captioned_filename TEXT
+            captioned_filename TEXT,
+            upvotes INTEGER DEFAULT 0,
+            downvotes INTEGER DEFAULT 0
+        )
+    ''')
+    
+    # Create shortened URLs table
+    c.execute('''
+        CREATE TABLE IF NOT EXISTS short_urls (
+            short_id TEXT PRIMARY KEY,
+            timestamp TEXT,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            FOREIGN KEY (timestamp) REFERENCES memes(timestamp)
         )
     ''')
     conn.commit()
-    conn.close()
+    return conn
 
 def get_db():
     conn = sqlite3.connect('memes.db')
@@ -389,9 +405,11 @@ def home():
                          reddit_images=gallery_images,
                          recent_memes=recent_memes)
 
-@app.route('/saves/<filename>')
+@app.route('/saves/<path:filename>')
 def serve_saved_image(filename):
-    return send_file(SAVES_DIR / filename)
+    if not filename:
+        return "No filename provided", 404
+    return send_from_directory('saves', filename, as_attachment=False)
 
 def get_analysis(timestamp):
     conn = get_db()
@@ -412,7 +430,7 @@ def history():
     conn = get_db()
     try:
         analyses = conn.execute('''
-            SELECT * FROM memes 
+            SELECT *, upvotes, downvotes FROM memes 
             ORDER BY timestamp DESC
         ''').fetchall()
         
@@ -468,6 +486,187 @@ atexit.register(cleanup_temp_files)
 
 # Call init_db() when app starts
 init_db()
+
+@app.route('/stats')
+def stats():
+    conn = get_db()
+    try:
+        entries = conn.execute('SELECT * FROM memes ORDER BY timestamp DESC').fetchall()
+        
+        entries_processed = []
+        for entry in entries:
+            entry_dict = dict(entry)
+            entry_dict['completion_data'] = json.loads(entry['completion_data'])
+            entries_processed.append(entry_dict)
+        
+        stats = {
+            'total_memes': len(entries),
+            'grok_count': len([e for e in entries if e['model_choice'] == 'xai']),
+            'gpt4_count': len([e for e in entries if e['model_choice'] == 'openai'])
+        }
+        
+        return render_template('admin.html', entries=entries_processed, stats=stats)
+    finally:
+        conn.close()
+
+@app.route('/admin/delete/<timestamp>', methods=['POST'])
+def delete_entry(timestamp):
+    conn = get_db()
+    try:
+        # Get the entry first to delete associated image
+        entry = conn.execute('SELECT captioned_filename FROM memes WHERE timestamp = ?', 
+                           (timestamp,)).fetchone()
+        
+        if entry and entry['captioned_filename']:
+            image_path = os.path.join('saves', entry['captioned_filename'])
+            if os.path.exists(image_path):
+                os.remove(image_path)
+        
+        conn.execute('DELETE FROM memes WHERE timestamp = ?', (timestamp,))
+        conn.commit()
+        return jsonify({'success': True})
+    finally:
+        conn.close()
+
+@app.route('/vote/<timestamp>/<vote_type>', methods=['POST'])
+def vote(timestamp, vote_type):
+    if vote_type not in ['up', 'down']:
+        return 'Invalid vote type', 400
+        
+    conn = get_db()
+    try:
+        if vote_type == 'up':
+            conn.execute('UPDATE memes SET upvotes = upvotes + 1 WHERE timestamp = ?', 
+                        (timestamp,))
+        else:
+            conn.execute('UPDATE memes SET downvotes = downvotes + 1 WHERE timestamp = ?', 
+                        (timestamp,))
+        conn.commit()
+        
+        # Get updated counts
+        result = conn.execute('''
+            SELECT upvotes, downvotes 
+            FROM memes 
+            WHERE timestamp = ?
+        ''', (timestamp,)).fetchone()
+        
+        return jsonify({
+            'upvotes': result['upvotes'],
+            'downvotes': result['downvotes']
+        })
+    finally:
+        conn.close()
+
+@app.route('/compare')
+def compare():
+    conn = get_db()
+    try:
+        # Get model performance stats
+        stats = conn.execute('''
+            SELECT 
+                model_choice,
+                AVG(CAST(json_extract(completion_data, '$.response_ms') AS INTEGER)) as avg_response,
+                AVG(LENGTH(caption)) as avg_length,
+                COUNT(*) as total_generations,
+                AVG(upvotes) as avg_upvotes
+            FROM memes 
+            GROUP BY model_choice
+        ''').fetchall()
+        
+        model_stats = {row['model_choice']: dict(row) for row in stats}
+        
+        # Get pairs for side-by-side comparison
+        pairs = conn.execute('''
+            SELECT 
+                a1.image_url,
+                a1.caption as grok_caption,
+                a1.captioned_filename as grok_image,
+                a1.completion_data as grok_completion_data,
+                a2.caption as gpt_caption,
+                a2.captioned_filename as gpt_image,
+                a2.completion_data as gpt_completion_data
+            FROM memes a1
+            JOIN memes a2 ON a1.image_url = a2.image_url 
+            AND a1.model_choice = 'xai' 
+            AND a2.model_choice = 'openai'
+            ORDER BY a1.timestamp DESC
+        ''').fetchall()
+        
+        comparison_pairs = []
+        for pair in pairs:
+            comparison_pairs.append({
+                'image_url': pair['image_url'],
+                'grok': {
+                    'caption': pair['grok_caption'],
+                    'captioned_image': pair['grok_image'],
+                    'completion_data': json.loads(pair['grok_completion_data'])
+                },
+                'gpt': {
+                    'caption': pair['gpt_caption'],
+                    'captioned_image': pair['gpt_image'],
+                    'completion_data': json.loads(pair['gpt_completion_data'])
+                }
+            })
+            
+        return render_template('compare.html', 
+                             pairs=comparison_pairs,
+                             model_stats=model_stats)
+    finally:
+        conn.close()
+
+@app.route('/static/<path:filename>')
+def serve_static(filename):
+    return send_from_directory('static', filename)
+
+def generate_short_id():
+    alphabet = string.ascii_letters + string.digits
+    return ''.join(secrets.choice(alphabet) for _ in range(7))
+
+@app.route('/s/<short_id>')
+def share_view(short_id):
+    conn = get_db()
+    try:
+        result = conn.execute('''
+            SELECT m.* FROM memes m
+            JOIN short_urls s ON m.timestamp = s.timestamp
+            WHERE s.short_id = ?
+        ''', (short_id,)).fetchone()
+        
+        if not result:
+            return "Meme not found", 404
+            
+        analysis = dict(result)
+        analysis['completion_data'] = json.loads(analysis['completion_data'])
+        return render_template('view.html', 
+                             analysis=analysis,
+                             captioned_image=analysis['captioned_filename'])
+    finally:
+        conn.close()
+
+@app.route('/share/<timestamp>')
+def create_share_url(timestamp):
+    conn = get_db()
+    try:
+        # Check if short URL already exists
+        existing = conn.execute('''
+            SELECT short_id FROM short_urls WHERE timestamp = ?
+        ''', (timestamp,)).fetchone()
+        
+        if existing:
+            short_id = existing[0]
+        else:
+            # Create new short URL
+            short_id = generate_short_id()
+            conn.execute('''
+                INSERT INTO short_urls (short_id, timestamp)
+                VALUES (?, ?)
+            ''', (short_id, timestamp))
+            conn.commit()
+            
+        share_url = url_for('share_view', short_id=short_id, _external=True)
+        return {'share_url': share_url}
+    finally:
+        conn.close()
 
 if __name__ == '__main__':
     app.run(debug=True) 

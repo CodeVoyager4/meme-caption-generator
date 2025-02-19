@@ -74,6 +74,17 @@ def migrate_data():
             print(f"Error migrating analysis {timestamp}: {str(e)}")
             continue
     
+    # Add new columns if they don't exist
+    try:
+        c.execute('ALTER TABLE memes ADD COLUMN upvotes INTEGER DEFAULT 0')
+    except sqlite3.OperationalError:
+        pass  # Column already exists
+        
+    try:
+        c.execute('ALTER TABLE memes ADD COLUMN downvotes INTEGER DEFAULT 0')
+    except sqlite3.OperationalError:
+        pass  # Column already exists
+    
     conn.commit()
     conn.close()
     print("Migration complete!")

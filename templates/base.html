@@ -6,15 +6,20 @@
     <title>{% block title %}AI Meme Generator{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     {% block extra_head %}{% endblock %}
 </head>
 <body>
-    <div class="nav">
+    <div class="nav animate__animated animate__fadeIn">
         {% block nav %}
-        <a href="/">← Back to Generator</a>
-        <h1>{% block page_title %}AI Meme Generator{% endblock %}</h1>
-        <a href="{{ url_for('admin') }}" class="admin-link">Admin ⚙️</a>
+        <a href="/" class="animate__animated animate__fadeIn">← Back to Generator</a>
+        <h1 class="animate__animated animate__fadeIn">{% block page_title %}AI Meme Generator{% endblock %}</h1>
+        <div class="nav-links animate__animated animate__fadeIn">
+            <a href="{{ url_for('compare') }}" class="nav-link">Compare Models 🔍</a>
+            <a href="{{ url_for('stats') }}" class="nav-link">Stats 📊</a>
+        </div>
         {% endblock %}
     </div>
 

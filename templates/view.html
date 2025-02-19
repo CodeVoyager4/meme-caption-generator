@@ -9,38 +9,50 @@
 {% endblock %}
 
 {% block content %}
-<div class="analysis-container">
-    <div class="caption-section">
-        <h2>{{ analysis.caption }}</h2>
-    </div>
-    
-    <div class="image-comparison">
-        <div class="original-image">
-            <h3>Original Image</h3>
-            <img src="{{ analysis.image_url }}" alt="Original image">
-        </div>
-        
-        <div class="captioned-image">
-            <h3>Captioned Version</h3>
-            <img src="{{ url_for('serve_saved_image', filename=captioned_image) }}" 
-                 alt="Captioned image">
+<div class="analysis-container" x-data="{ showDetails: false }">
+    <div class="meme-view animate__animated animate__fadeIn">
+        <img src="{{ url_for('serve_saved_image', filename=captioned_image) }}" 
+             alt="Captioned meme"
+             class="animate__animated animate__zoomIn">
+        <div class="caption-overlay animate__animated animate__fadeIn animate__delay-1s">
+            {{ analysis.caption }}
         </div>
     </div>
     
-    <div class="metadata-section">
-        <div class="description">
-            <h3>AI Description:</h3>
-            <p>{{ analysis.description }}</p>
+    <button @click="showDetails = !showDetails" 
+            class="toggle-details animate__animated animate__fadeIn animate__delay-1s">
+        <span x-text="showDetails ? 'Hide Details ↑' : 'Show Details ↓'"></span>
+    </button>
+    
+    <div class="details-section" 
+         x-show="showDetails" 
+         x-transition:enter="animate__animated animate__fadeIn"
+         x-transition:leave="animate__animated animate__fadeOut">
+        <div class="metadata-section">
+            <div class="description">
+                <h3>AI Description:</h3>
+                <p>{{ analysis.description }}</p>
+            </div>
+            
+            <div class="technical-details">
+                <h3>Technical Details:</h3>
+                <p>Model: {{ analysis.completion_data.model }}</p>
+                <p>Created: {{ analysis.completion_data.created }}</p>
+                {% if analysis.completion_data.response_ms %}
+                <p>Response time: {{ analysis.completion_data.response_ms }}ms</p>
+                {% endif %}
+            </div>
         </div>
-        
-        <div class="technical-details">
-            <h3>Technical Details:</h3>
-            <p>Model: {{ analysis.completion_data.model }}</p>
-            <p>Created: {{ analysis.completion_data.created }}</p>
-            {% if analysis.completion_data.response_ms %}
-            <p>Response time: {{ analysis.completion_data.response_ms }}ms</p>
-            {% endif %}
-        </div>
+    </div>
+</div>
+
+<div class="share-section animate__animated animate__fadeIn animate__delay-1s">
+    <button @click="shareUrl()" class="share-button">
+        Share Meme 🔗
+    </button>
+    <div x-show="showShareUrl" class="share-url-display">
+        <input type="text" x-model="shareUrl" readonly>
+        <button @click="copyToClipboard()">Copy</button>
     </div>
 </div>
 
@@ -54,4 +66,39 @@
     <div class="error">{{ error }}</div>
     {% endif %}
 </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function toggleDetails() {
+    const details = document.getElementById('details');
+    const button = document.querySelector('.toggle-details');
+    const isHidden = details.style.display === 'none';
+    
+    details.style.display = isHidden ? 'block' : 'none';
+    button.textContent = isHidden ? 'Hide Details ↑' : 'Show Details ↓';
+}
+
+// Hide details by default
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('details').style.display = 'none';
+});
+
+document.addEventListener('alpine:init', () => {
+    Alpine.data('shareData', () => ({
+        showShareUrl: false,
+        shareUrl: '',
+        async shareUrl() {
+            const response = await fetch(`/share/{{ analysis.timestamp }}`);
+            const data = await response.json();
+            this.shareUrl = data.share_url;
+            this.showShareUrl = true;
+        },
+        async copyToClipboard() {
+            await navigator.clipboard.writeText(this.shareUrl);
+            alert('Copied to clipboard!');
+        }
+    }))
+})
+</script>
 {% endblock %} 
