@@ -24,7 +24,7 @@ A Flask web application that analyzes memes using AI vision models and generates
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/funalize.git
+git clone https://github.com/CodeVoyager4/funalize.git
 cd funalize
 ```
 
