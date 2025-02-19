@@ -14,7 +14,7 @@
         {% block nav %}
         <a href="/">← Back to Generator</a>
         <h1>{% block page_title %}AI Meme Generator{% endblock %}</h1>
-        <div></div>
+        <a href="{{ url_for('admin') }}" class="admin-link">Admin ⚙️</a>
         {% endblock %}
     </div>
 

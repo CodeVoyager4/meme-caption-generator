@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+
+{% block title %}Admin Dashboard{% endblock %}
+
+{% block nav %}
+<a href="/">← Back to Generator</a>
+<h1>Admin Dashboard</h1>
+<div></div>
+{% endblock %}
+
+{% block content %}
+<div class="admin-container">
+    <div class="stats-section">
+        <h2>Statistics</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-value">{{ stats.total_memes }}</span>
+                <span class="stat-label">Total Memes</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-value">{{ stats.grok_count }}</span>
+                <span class="stat-label">Grok Generations</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-value">{{ stats.gpt4_count }}</span>
+                <span class="stat-label">GPT-4 Generations</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="data-section">
+        <h2>Database Records</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="sortable" data-sort="timestamp">
+                            Timestamp
+                            <span class="sort-icon">↕️</span>
+                        </th>
+                        <th class="sortable" data-sort="model">
+                            Model
+                            <span class="sort-icon">↕️</span>
+                        </th>
+                        <th class="sortable" data-sort="caption">
+                            Caption
+                            <span class="sort-icon">↕️</span>
+                        </th>
+                        <th class="sortable" data-sort="response_time">
+                            Response Time
+                            <span class="sort-icon">↕️</span>
+                        </th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="entries-body">
+                    {% for entry in entries %}
+                    <tr>
+                        <td data-value="{{ entry.timestamp }}">{{ entry.timestamp }}</td>
+                        <td data-value="{{ entry.model_choice }}">
+                            {{ "Grok" if entry.model_choice == "xai" else "GPT-4" }}
+                        </td>
+                        <td data-value="{{ entry.caption }}">{{ entry.caption[:50] }}...</td>
+                        <td data-value="{{ entry.completion_data.response_ms }}">
+                            {{ entry.completion_data.response_ms }}ms
+                        </td>
+                        <td>
+                            <a href="{{ url_for('view_analysis', timestamp=entry.timestamp) }}" 
+                               class="action-link">View</a>
+                            <button onclick="deleteEntry('{{ entry.timestamp }}')" 
+                                    class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+let currentSort = {
+    column: 'timestamp',
+    direction: 'desc'
+};
+
+document.querySelectorAll('.sortable').forEach(header => {
+    header.addEventListener('click', () => {
+        const column = header.dataset.sort;
+        const direction = currentSort.column === column && currentSort.direction === 'asc' ? 'desc' : 'asc';
+        sortTable(column, direction);
+        currentSort = { column, direction };
+        updateSortIcons(header);
+    });
+});
+
+function updateSortIcons(activeHeader) {
+    document.querySelectorAll('.sort-icon').forEach(icon => {
+        icon.textContent = '↕️';
+    });
+    const icon = activeHeader.querySelector('.sort-icon');
+    icon.textContent = currentSort.direction === 'asc' ? '↑' : '↓';
+}
+
+function sortTable(column, direction) {
+    const tbody = document.getElementById('entries-body');
+    const rows = Array.from(tbody.querySelectorAll('tr'));
+    
+    rows.sort((a, b) => {
+        let aVal = a.querySelector(`td[data-value]`).dataset.value;
+        let bVal = b.querySelector(`td[data-value]`).dataset.value;
+        
+        // Special handling for model sorting
+        if (column === 'model') {
+            // Ensure Grok/xai comes before GPT-4/openai when sorting
+            aVal = aVal === 'xai' ? '1-grok' : '2-gpt4';
+            bVal = bVal === 'xai' ? '1-grok' : '2-gpt4';
+        }
+        
+        if (column === 'response_time') {
+            return direction === 'asc' 
+                ? parseInt(aVal) - parseInt(bVal)
+                : parseInt(bVal) - parseInt(aVal);
+        }
+        
+        return direction === 'asc' 
+            ? aVal.localeCompare(bVal)
+            : bVal.localeCompare(aVal);
+    });
+    
+    tbody.innerHTML = '';
+    rows.forEach(row => tbody.appendChild(row));
+}
+
+async function deleteEntry(timestamp) {
+    if (confirm('Are you sure you want to delete this entry?')) {
+        const response = await fetch('/admin/delete/' + timestamp, {
+            method: 'POST'
+        });
+        if (response.ok) {
+            location.reload();
+        }
+    }
+}
+</script>
+{% endblock %} 
