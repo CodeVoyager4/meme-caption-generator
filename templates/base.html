@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}AI Meme Generator{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <div class="nav">
+        {% block nav %}
+        <a href="/">← Back to Generator</a>
+        <h1>{% block page_title %}AI Meme Generator{% endblock %}</h1>
+        <div></div>
+        {% endblock %}
+    </div>
+
+    <div class="content-container">
+        {% block content %}{% endblock %}
+    </div>
+
+    {% block scripts %}{% endblock %}
+</body>
+</html> 
